@@ -1,0 +1,292 @@
+# Build report 2026-11-23
+Base: BBGM Real Players 2027 ({"maxSeason":"2027","season":"2027","phase":"Preseason","version":"BBGM v2026.11.22.1166"}), exported 2026-11-23T16:46:00-06:00
+Games with box scores: 248; remaining schedule: 952
+
+## Overlay vs BBGM base
+### moves (25)
+- Rafael Castro: MIL -> ATL (moved since BBGM's data)
+- Orlando Robinson: free agency -> CHI (signed since BBGM's data)
+- Norchad Omier: free agency -> CLE (signed since BBGM's data)
+- Walter Clayton: free agency -> DAL (signed since BBGM's data)
+- Malevy Leons: free agency -> GSW (signed since BBGM's data)
+- Quenton Jackson: free agency -> IND (signed since BBGM's data)
+- Cam Christie: free agency -> LAC (signed since BBGM's data)
+- Blake Wesley: free agency -> LAC (signed since BBGM's data)
+- Carson Cooper: MEM -> LAL (moved since BBGM's data)
+- Johni Broome: LAC -> MIN (moved since BBGM's data)
+- Trey Lyles: free agency -> MIN (signed since BBGM's data)
+- Cody Williams: UTA -> MIN (moved since BBGM's data)
+- Dalton Knecht: free agency -> NYK (signed since BBGM's data)
+- Nique Clifford: SAC -> OKC (moved since BBGM's data)
+- Micah Peavy: MEM -> OKC (moved since BBGM's data)
+- Leaky Black: free agency -> SAC (signed since BBGM's data)
+- Sean Pedulla: free agency -> SAC (signed since BBGM's data)
+- Mason Plumlee: free agency -> SAC (signed since BBGM's data)
+- Ben Simmons: LAC -> SAC (moved since BBGM's data)
+- Gabe Vincent: free agency -> SAC (signed since BBGM's data)
+- Nate Bittle: free agency -> TOR (signed since BBGM's data)
+- Kevin McCullar Jr.: NYK -> TOR (moved since BBGM's data)
+- Malachi Smith: free agency -> TOR (signed since BBGM's data)
+- Kobe Bufkin: free agency -> UTA (signed since BBGM's data)
+- Jamir Watkins: free agency -> WAS (signed since BBGM's data)
+### released (16)
+- Trey Alexander (was UTA in BBGM's data) -> free agent
+- Tamar Bates (was UTA in BBGM's data) -> free agent
+- Pat Connaughton (was CHA in BBGM's data) -> free agent
+- JD Davison (was ORL in BBGM's data) -> free agent
+- Tristan Enaruna (was CLE in BBGM's data) -> free agent
+- Enrique Freeman (was MIN in BBGM's data) -> free agent
+- Keshon Gilbert (was ATL in BBGM's data) -> free agent
+- Vsevolod Ishchenko (was DAL in BBGM's data) -> free agent
+- Trey Jemison (was TOR in BBGM's data) -> free agent
+- Lajae Jones (was GSW in BBGM's data) -> free agent
+- Trey Kaufman-Renn (was MIN in BBGM's data) -> free agent
+- Jack Kayil (was NYK in BBGM's data) -> free agent
+- Malique Lewis (was MIL in BBGM's data) -> free agent
+- Narcisse Ngoy (was LAC in BBGM's data) -> free agent
+- Otega Oweh (was OKC in BBGM's data) -> free agent
+- KJ Simpson (was DEN in BBGM's data) -> free agent
+### contract_info (18)
+- Devin Carter (BOS): ESPN term thru 2028 vs BBGM 2027 with same salary - kept BBGM (likely option years)
+- Ron Harper Jr. (BOS): ESPN $2.5M thru 2029 vs BBGM $3.1M thru 2030 - kept BBGM's term/extension years, set 2026-27 salary to ESPN's
+- Josh Minott (BKN): ESPN $2.6M thru 2027 vs BBGM $4.5M thru 2028 - kept BBGM's term/extension years, set 2026-27 salary to ESPN's
+- Day'Ron Sharpe (BKN): ESPN $6.2M thru 2027 vs BBGM $10.0M thru 2028 - kept BBGM's term/extension years, set 2026-27 salary to ESPN's
+- Matas Buzelis (CHI): ESPN term thru 2029 vs BBGM 2028 with same salary - kept BBGM (likely option years)
+- James Harden (CLE): ESPN $42.3M thru 2027 vs BBGM $30.6M thru 2029 - kept BBGM's term/extension years, set 2026-27 salary to ESPN's
+- Cam Whitmore (DEN): ESPN $5.5M thru 2027 vs BBGM $1.8M thru 2029 - kept BBGM's term/extension years, set 2026-27 salary to ESPN's
+- Jordan Miller (LAC): ESPN $2.5M thru 2027 vs BBGM $5.3M thru 2029 - kept BBGM's term/extension years, set 2026-27 salary to ESPN's
+- Kobe Sanders (LAC): ESPN $2.1M thru 2027 vs BBGM $2.6M thru 2030 - kept BBGM's term/extension years, set 2026-27 salary to ESPN's
+- Zach Edey (MEM): ESPN term thru 2029 vs BBGM 2028 with same salary - kept BBGM (likely option years)
+- Klay Thompson (MIA): ESPN $17.5M thru 2027 vs BBGM $6.5M thru 2028 - kept BBGM's term/extension years, set 2026-27 salary to ESPN's
+- Anthony Edwards (MIN): ESPN term thru 2030 vs BBGM 2029 with same salary - kept BBGM (likely option years)
+- Jonathan Kuminga (MIN): ESPN $24.3M thru 2027 vs BBGM $6.1M thru 2028 - kept BBGM's term/extension years, set 2026-27 salary to ESPN's
+- Jaden McDaniels (MIN): ESPN $26.2M thru 2029 vs BBGM $40.0M thru 2030 - kept BBGM's term/extension years, set 2026-27 salary to ESPN's
+- Isaiah Hartenstein (OKC): ESPN $28.5M thru 2027 vs BBGM $23.1M thru 2029 - kept BBGM's term/extension years, set 2026-27 salary to ESPN's
+- Oso Ighodaro (PHX): ESPN $2.3M thru 2028 vs BBGM $9.7M thru 2031 - kept BBGM's term/extension years, set 2026-27 salary to ESPN's
+- Julian Champagnie (SAS): ESPN $3.0M thru 2027 vs BBGM $13.9M thru 2029 - kept BBGM's term/extension years, set 2026-27 salary to ESPN's
+- Isaiah Collier (UTA): ESPN term thru 2029 vs BBGM 2028 with same salary - kept BBGM (likely option years)
+### contracts (17)
+- Walter Clayton (DAL): new contract $4.2M thru 2029 (ESPN)
+- DeMar DeRozan (DEN): ESPN $25.7M thru 2027 vs BBGM $2.5M thru 2027 -> applied ESPN
+- Bogdan Bogdanović (HOU): ESPN $16.0M thru 2027 vs BBGM $2.5M thru 2027 -> applied ESPN
+- Quenton Jackson (IND): new contract $2.6M thru 2028 (ESPN)
+- Cam Christie (LAC): new contract $2.3M thru 2027 (ESPN)
+- Jalen Pickett (LAC): ESPN $2.4M thru 2027 vs BBGM $0.7M thru 2027 -> applied ESPN
+- Kevon Looney (LAL): ESPN $8.0M thru 2027 vs BBGM $2.5M thru 2027 -> applied ESPN
+- Ziaire Williams (LAL): ESPN $6.2M thru 2027 vs BBGM $2.5M thru 2027 -> applied ESPN
+- Kam Jones (MIL): ESPN $2.1M thru 2029 vs BBGM $0.7M thru 2027 -> applied ESPN
+- Dalton Knecht (NYK): new contract $4.2M thru 2027 (ESPN)
+- Kenrich Williams (OKC): ESPN $7.2M thru 2027 vs BBGM $5.0M thru 2027 -> applied ESPN
+- Jonathan Isaac (ORL): ESPN $14.5M thru 2029 vs BBGM $2.5M thru 2027 -> applied ESPN
+- Kentavious Caldwell-Pope (PHI): ESPN $21.6M thru 2027 vs BBGM $2.5M thru 2027 -> applied ESPN
+- Jonathan Mogbo (SAC): ESPN $2.3M thru 2027 vs BBGM $0.7M thru 2027 -> applied ESPN
+- Malachi Smith (TOR): new contract $2.1M thru 2027 (ESPN)
+- Kobe Bufkin (UTA): new contract $2.5M thru 2027 (ESPN)
+- Jamir Watkins (WAS): new contract $2.1M thru 2027 (ESPN)
+### added (5)
+- Zack Austin (CLE) - not in BBGM data, rated from stats (ovr 40)
+- Khalifa Diop (CLE) - not in BBGM data, rated from stats (ovr 40)
+- Graham Ike (GSW) - not in BBGM data, rated from stats (ovr 44)
+- Jaden Akins (NYK) - not in BBGM data, rated from stats (ovr 40)
+- Jonas Aidoo (UTA) - not in BBGM data, rated from stats (ovr 41)
+
+## Injuries (team, player, status, injury, games, source)
+- ATL Asa Newell: Out, Left Toe, 50 g (ESPN return date 2027-03-17)
+- ATL CJ McCollum: Out, Left Calf Strain, 7 g (ESPN return date 2026-12-19)
+- ATL Henri Veesaar: Out, Right Knee, 63 g (ESPN return date 2027-07-01)
+- ATL Jock Landale: Out, Right Hip Inflammation, 1 g (ESPN return date 2026-11-27)
+- ATL Mouhamed Gueye: Out, Left Foot Fracture, 4 g (ESPN return date 2026-12-12)
+- BKN Nolan Traoré: Out, Right Hamstring Strain, 30 g (ESPN return date 2027-01-27)
+- BOS Mitchell Robinson: Out, Illness, 1 g (ESPN return date 2026-11-27)
+- CHA Dennis Schröder: Out, Left Hamstring Strain, 1 g (ESPN return date 2026-11-25)
+- CHA Grant Williams: Out, Right Hamstring, 1 g (ESPN return date 2026-11-25)
+- CHA Grayson Allen: Out, Concussion, 1 g (ESPN return date 2026-11-25)
+- CHA Kon Knueppel: Out, Left Hamstring Strain, 5 g (ESPN return date 2026-12-12)
+- CHI Caleb Wilson: Out, Right Hand, 5 g (ESPN return date 2026-12-13)
+- CHI Jalen Smith: Day-To-Day, Illness, 0 g (ESPN return date 2026-11-23)
+- CHI Nic Claxton: Day-To-Day, Illness, 0 g (ESPN return date 2026-11-23)
+- CHI Norman Powell: Out, Right Hamstring Strain, 2 g (ESPN return date 2026-11-28)
+- CLE Evan Mobley: Out, Left Toe Sprain, 2 g (ESPN return date 2026-11-29)
+- CLE Jaylon Tyson: Out, Right Ankle, 1 g (ESPN return date 2026-11-23)
+- CLE Nae'Qwan Tomlin: Out, Back, 2 g (ESPN return date 2026-11-29)
+- DAL Dereck Lively II: Out, Right Foot Surgery, 1 g (ESPN return date 2026-11-27)
+- DAL P.J. Washington: Day-To-Day, Illness, 0 g (ESPN return date 2026-11-24)
+- DAL Sergio de Larrea: Out, Right Knee Strain, 1 g (ESPN return date 2026-11-27)
+- DAL Tarik Biberovic: Out, Right Heel Inflammation, 1 g (ESPN return date 2026-11-27)
+- DAL Tobi Lawal: Out, Right Groin, 1 g (ESPN return date 2026-11-24)
+- DEN Julian Strawther: Out, Left Knee Sprain, 2 g (ESPN return date 2026-11-29)
+- DET Cade Cunningham: Day-To-Day, Knee, 0 g (ESPN return date 2026-11-24)
+- DET Duncan Robinson: Out, Left Quadriceps Strain, 1 g (ESPN return date 2026-11-27)
+- DET Ebuka Okorie: Out, Left Oblique Strain, 3 g (ESPN return date 2026-11-30)
+- DET Jalen Duren: Out, Right Hamstring Strain, 3 g (ESPN return date 2026-11-30)
+- DET Taurean Prince: Out, Right Knee Surgery, 5 g (ESPN return date 2026-12-13)
+- GSW Brandon Williams: Out, Left Hamstring Strain, 1 g (ESPN return date 2026-11-25)
+- GSW Jimmy Butler: Out, Right Knee Surgery, 15 g (ESPN return date 2027-01-02)
+- GSW Kristaps Porziņģis: Out, Illness, 15 g (ESPN return date 2027-01-02)
+- GSW Moses Moody: Out, Left Knee Surgery, 3 g (ESPN return date 2026-12-01)
+- GSW Stephen Curry: Out, Right Abdomen, 4 g (ESPN return date 2026-12-12)
+- IND Aaron Nesmith: Out, Foot, 1 g (ESPN return date 2026-11-27)
+- IND Ben Sheppard: Out, Left Knee, 15 g (ESPN return date 2027-01-02)
+- IND Johnny Furphy: Out, Right Knee Surgery, 15 g (ESPN return date 2027-01-02)
+- IND Pascal Siakam: Day-To-Day, Left Hip, 0 g (ESPN return date 2026-11-23)
+- IND T.J. McConnell: Out, Left Hamstring, 1 g (ESPN return date 2026-11-27)
+- IND Tyrese Haliburton: Out, Left Hamstring Strain, 5 g (ESPN return date 2026-12-13)
+- LAC Bradley Beal: Out, Right Knee Inflammation, 3 g (ESPN return date 2026-11-29)
+- LAC Jordan Miller: Out, Left Shoulder Surgery, 43 g (ESPN return date 2027-03-02)
+- LAL Austin Reaves: Out, Left Heel Bruise, 1 g (ESPN return date 2026-11-27)
+- MEM Cameron Boozer: Out, Right Ankle Sprain, 1 g (ESPN return date 2026-11-25)
+- MEM GG Jackson II: Out, Left Foot Surgery, 24 g (ESPN return date 2027-01-18)
+- MEM Jerami Grant: Out, Left Calf, 6 g (ESPN return date 2026-12-12)
+- MEM Richie Saunders: Out, Right Knee Surgery, 4 g (ESPN return date 2026-12-01)
+- MEM Scotty Pippen Jr.: Out, Back Soreness, 1 g (ESPN return date 2026-11-25)
+- MIA Giannis Antetokounmpo: Day-To-Day, Groin, 0 g (ESPN return date 2026-11-25)
+- MIN Anthony Edwards: Out, Right Knee Surgery, 10 g (ESPN return date 2026-12-21)
+- MIN Donte DiVincenzo: Out, Right Achilles Surgery, 57 g (ESPN return date 2027-04-02)
+- MIN Jaylen Clark: Out, Right Hamstring, 3 g (ESPN return date 2026-11-29)
+- NOP Bennedict Mathurin: Out, Left Foot Plantar Fasciitis, 1 g (ESPN return date 2026-11-27)
+- NOP Dejounte Murray: Out, Ankle, 1 g (ESPN return date 2026-11-27)
+- NOP Trendon Watford: Out, Right Ankle Sprain, 1 g (ESPN return date 2026-11-27)
+- NOP Zion Williamson: Day-To-Day, Left Thigh Bruise, 0 g (ESPN return date 2026-11-23)
+- NYK Jordan Clarkson: Out, Right Foot Plantar Fasciitis, 1 g (ESPN return date 2026-11-25)
+- NYK Miles McBride: Day-To-Day, Left Abdomen, 0 g (ESPN return date 2026-11-25)
+- NYK OG Anunoby: Day-To-Day, Left Calf Soreness, 0 g (ESPN return date 2026-11-25)
+- OKC Aday Mara: Out, Right Lower Leg Bruise, 1 g (ESPN return date 2026-11-25)
+- OKC Alex Caruso: Out, Right Hip Soreness, 1 g (ESPN return date 2026-11-25)
+- OKC Cason Wallace: Out, Left Shoulder Surgery, 42 g (ESPN return date 2027-03-02)
+- OKC Chet Holmgren: Out, Right Knee, 15 g (ESPN return date 2027-01-02)
+- OKC Jalen Williams: Out, Left Leg Fracture, 42 g (ESPN return date 2027-03-02)
+- OKC Jaylin Williams: Out, Back Spasms, 1 g (ESPN return date 2026-11-25)
+- OKC Nikola Topić: Out, Left Hip Strain, 1 g (ESPN return date 2026-11-25)
+- OKC Thomas Sorber: Out, Knee, 30 g (ESPN return date 2027-01-31)
+- ORL Izaiyah Nelson: Out, Left Ankle Surgery, 2 g (ESPN return date 2026-11-29)
+- ORL Jonathan Isaac: Out, Left Knee, 2 g (ESPN return date 2026-11-29)
+- ORL Noah Penda: Out, Right Hamstring Strain, 2 g (ESPN return date 2026-11-29)
+- ORL Paolo Banchero: Out, Right Ankle Sprain, 2 g (ESPN return date 2026-11-29)
+- PHI Adem Bona: Out, Back Sprain, 1 g (ESPN return date 2026-11-23)
+- PHI Ariel Hukporti: Out, Right Achilles Surgery, 63 g (ESPN return date 2027-10-01)
+- PHI Dean Wade: Day-To-Day, Left Hamstring Soreness, 0 g (ESPN return date 2026-11-23)
+- PHI Jaylen Brown: Day-To-Day, Left Hamstring, 0 g (ESPN return date 2026-11-23)
+- PHI Joel Embiid: Day-To-Day, Illness, 0 g (ESPN return date 2026-11-23)
+- PHX Mark Williams: Out, Left Shoulder Surgery, 32 g (ESPN return date 2027-02-03)
+- POR Chris Youngblood: Out, Right Heel Bruise, 2 g (ESPN return date 2026-11-27)
+- POR Ja Morant: Out, Left Hamstring, 4 g (ESPN return date 2026-12-01)
+- POR Shaedon Sharpe: Out, Right Knee Surgery, 43 g (ESPN return date 2027-03-02)
+- POR Vít Krejčí: Out, Left Ankle, 20 g (ESPN return date 2027-01-12)
+- SAC Ben Simmons: Out, Right Achilles Surgery, 64 g (ESPN return date 2027-10-01)
+- SAC Maxime Raynaud: Out, Right Knee Dislocated, 1 g (ESPN return date 2026-11-25)
+- SAS De'Aaron Fox: Day-To-Day, Right Lower Leg Bruise, 0 g (ESPN return date 2026-11-23)
+- SAS Dylan Harper: Out, Hip Soreness, 6 g (ESPN return date 2026-12-13)
+- SAS Jayden Quaintance: Out, Right Knee Surgery, 5 g (ESPN return date 2026-12-03)
+- SAS Jordan McLaughlin: Day-To-Day, Left Shoulder Bruise, 0 g (ESPN return date 2026-11-23)
+- SAS Tobias Harris: Out, Left Calf Strain, 5 g (ESPN return date 2026-12-03)
+- SAS Victor Wembanyama: Day-To-Day, Back, 0 g (ESPN return date 2026-11-23)
+- TOR Collin Murray-Boyles: Day-To-Day, Concussion, 0 g (ESPN return date 2026-11-23)
+- TOR Jaden Bradley: Day-To-Day, Right Ankle Sprain, 0 g (ESPN return date 2026-11-23)
+- TOR Kawhi Leonard: Out, Left Knee Inflammation, 4 g (ESPN return date 2026-12-03)
+- TOR Nate Bittle: Out, Right Foot Fracture, 1 g (ESPN return date 2026-11-27)
+- TOR RJ Barrett: Out, Right Hamstring Strain, 5 g (ESPN return date 2026-12-13)
+- UTA Jaren Jackson Jr.: Out, Right Knee, 6 g (ESPN return date 2026-12-14)
+- UTA Jaxson Hayes: Out, Left Knee, 1 g (ESPN return date 2026-11-27)
+- UTA Jusuf Nurkić: Out, Right Foot Strain, 2 g (ESPN return date 2026-11-29)
+- UTA Lauri Markkanen: Out, Right Hand Fracture, 16 g (ESPN return date 2027-01-04)
+- WAS Jamir Watkins: Out, Left Knee Surgery, 56 g (ESPN return date 2027-04-02)
+- WAS Justin Champagnie: Out, Right Foot, 39 g (ESPN return date 2027-02-25)
+- WAS Reece Beekman: Out, Shoulder, 3 g (ESPN return date 2026-12-03)
+- WAS Tristan Vukcevic: Out, Left Hip Pinched Nerve, 2 g (ESPN return date 2026-11-30)
+
+## Rating nudges (312); formula in README
+- Baylor Scheierman (BOS): 52 -> 51 (325 min)
+- Bobby Portis (MIA): 52 -> 51 (319 min)
+- De'Aaron Fox (SAS): 64 -> 63 (463 min)
+- DeMar DeRozan (DEN): 58 -> 57 (315 min)
+- Deandre Ayton (WAS): 59 -> 58 (227 min)
+- Desmond Bane (ORL): 62 -> 61 (521 min)
+- Devin Booker (PHX): 64 -> 63 (510 min)
+- Jalen Suggs (ORL): 66 -> 65 (228 min)
+- James Harden (CLE): 62 -> 61 (537 min)
+- Javon Small (MEM): 46 -> 45 (199 min)
+- Jaylen Brown (PHI): 69 -> 68 (485 min)
+- Joel Embiid (PHI): 60 -> 59 (449 min)
+- Josh Giddey (CHI): 66 -> 65 (457 min)
+- Josh Hart (NYK): 62 -> 61 (431 min)
+- Josh Okogie (UTA): 48 -> 47 (320 min)
+- Kevin Durant (HOU): 66 -> 65 (569 min)
+- LaMelo Ball (MIN): 59 -> 58 (481 min)
+- LeBron James (PHI): 68 -> 67 (425 min)
+- Mikal Bridges (NYK): 65 -> 64 (449 min)
+- Miles McBride (NYK): 61 -> 60 (275 min)
+- Nikola Jokić (DEN): 76 -> 75 (557 min)
+- Noah Clowney (BKN): 55 -> 54 (315 min)
+- Oso Ighodaro (PHX): 52 -> 51 (299 min)
+- Paul Reed (DET): 52 -> 51 (418 min)
+- Payton Pritchard (BOS): 58 -> 57 (471 min)
+- Peyton Watson (CLE): 57 -> 56 (361 min)
+- Sandro Mamukelashvili (LAL): 61 -> 60 (392 min)
+- Scoot Henderson (POR): 54 -> 53 (367 min)
+- Shai Gilgeous-Alexander (OKC): 75 -> 74 (535 min)
+- Toumani Camara (POR): 62 -> 61 (479 min)
+- Tyrese Maxey (PHI): 68 -> 67 (577 min)
+- Will Riley (WAS): 42 -> 41 (107 min)
+- Aaron Wiggins (ATL): 60 -> 61 (438 min)
+- Anthony Davis (WAS): 66 -> 67 (542 min)
+- Brook Lopez (LAC): 50 -> 51 (369 min)
+- Caleb Martin (DAL): 46 -> 47 (285 min)
+- Christian Braun (DEN): 56 -> 57 (509 min)
+- Day'Ron Sharpe (BKN): 54 -> 55 (358 min)
+- Franz Wagner (ORL): 69 -> 70 (584 min)
+- Jalen Brunson (NYK): 66 -> 67 (585 min)
+- Jalen Smith (CHI): 51 -> 52 (354 min)
+- Jeremiah Fears (NOP): 47 -> 48 (545 min)
+- Jonathan Kuminga (MIN): 59 -> 60 (499 min)
+- Kasparas Jakučionis (MIL): 42 -> 43 (297 min)
+- Matisse Thybulle (LAL): 46 -> 47 (423 min)
+- P.J. Washington (DAL): 59 -> 60 (462 min)
+- Paul George (BOS): 59 -> 60 (422 min)
+- Pelle Larsson (MIA): 55 -> 56 (370 min)
+- Precious Achiuwa (SAC): 50 -> 51 (318 min)
+- Sidy Cissoko (POR): 48 -> 49 (394 min)
+- Terrence Shannon Jr. (MIN): 43 -> 44 (322 min)
+- Tyrese Proctor (CLE): 45 -> 46 (327 min)
+- Walter Clayton (DAL): 35 -> 36 (295 min)
+- Yang Hansen (POR): 41 -> 42 (85 min)
+
+## Draft prospects (Tankathon 2027 big board nudges)
+- Quentin Coleman (Illinois): added (Tankathon #2, not in BBGM data; generic ratings from BBGM prospects near that slot)
+- Amari Allen: moved from BBGM's 2028 class to 2027 (Tankathon #7)
+- Ivan Kharchenkov (Arizona): added (Tankathon #8, not in BBGM data; generic ratings from BBGM prospects near that slot)
+- Patrick Ngongba II: moved from BBGM's 2028 class to 2027 (Tankathon #9)
+- Colben Landrew (UConn): added (Tankathon #12, not in BBGM data; generic ratings from BBGM prospects near that slot)
+- Obinna Ekezie Jr.: moved from BBGM's 2029 class to 2027 (Tankathon #14)
+- Jason Crowe Jr.: moved from BBGM's 2028 class to 2027 (Tankathon #16)
+- Davis Fogle (Gonzaga): added (Tankathon #21, not in BBGM data; generic ratings from BBGM prospects near that slot)
+- Malachi Moreno: moved from BBGM's 2028 class to 2027 (Tankathon #23)
+- Austin Goosby (Texas): added (Tankathon #28, not in BBGM data; generic ratings from BBGM prospects near that slot)
+- Billy Richmond III: moved from BBGM's 2028 class to 2027 (Tankathon #29)
+- David Mirkovic: moved from BBGM's 2028 class to 2027 (Tankathon #30)
+- Tyran Stokes: BBGM class rank 2, Tankathon #1: ovr 42 -> 43
+- Stefan Joksimovic: BBGM class rank 5, Tankathon #5: ovr 38 -> 40
+- Anthony Thompson: BBGM class rank 6, Tankathon #25: ovr 37 -> 39
+- Jason Crowe Jr.: BBGM class rank 14, Tankathon #16: ovr 40 -> 41
+- Johann Grunloh: BBGM class rank 19, Tankathon #63: ovr 41 -> 39
+- Tyler Tanner: BBGM class rank 22, Tankathon #22: ovr 40 -> 42
+- Luigi Suigo: BBGM class rank 28, Tankathon #11: ovr 34 -> 36
+- Amari Allen: BBGM class rank 30, Tankathon #7: ovr 40 -> 42
+- Billy Richmond III: BBGM class rank 31, Tankathon #29: ovr 37 -> 39
+- JT Toppin: BBGM class rank 33, Tankathon #61: ovr 41 -> 39
+- David Mirkovic: BBGM class rank 35, Tankathon #30: ovr 37 -> 39
+- Elliot Cadeau: BBGM class rank 36, Tankathon #66: ovr 41 -> 39
+- Kwame Evans Jr.: BBGM class rank 39, Tankathon #76: ovr 36 -> 34
+- Miles Byrd: BBGM class rank 40, Tankathon #59: ovr 42 -> 40
+- Xavier Booker: BBGM class rank 42, Tankathon #67: ovr 36 -> 35
+- Thomas Haugh: BBGM class rank 47, Tankathon #15: ovr 45 -> 44
+- Zvonimir Ivisic: BBGM class rank 48, Tankathon #64: ovr 42 -> 39
+- Tomislav Ivisic: BBGM class rank 52, Tankathon #60: ovr 41 -> 39
+- Mackenzie Mgbako: BBGM class rank 58, Tankathon #71: ovr 36 -> 35
+- Coen Carr: BBGM class rank 59, Tankathon #62: ovr 41 -> 39
+- Michael Ruzic: BBGM class rank 60, Tankathon #24: ovr 28 -> 30
+- Andrej Stojakovic: BBGM class rank 63, Tankathon #27: ovr 37 -> 39
+- Milan Momcilovic: BBGM class rank 66, Tankathon #43: ovr 33 -> 35
+- Quentin Coleman: BBGM class rank 78, Tankathon #2: ovr 38 -> 40
+- Ivan Kharchenkov: BBGM class rank 79, Tankathon #8: ovr 40 -> 41
+- Colben Landrew: BBGM class rank 80, Tankathon #12: ovr 40 -> 41
+- Austin Goosby: BBGM class rank 82, Tankathon #28: ovr 39 -> 40
