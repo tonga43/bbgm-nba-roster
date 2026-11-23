@@ -2713,3 +2713,5 @@
 - Zeke Nnaji (DEN): 46 -> 47
 - Bruce Thornton (HOU): 40 -> 41
 
+
+- Method change (5:30 PM CT): ratings now blend 2026-27 production against the BBGM base, with up to +/-7 ovr at full minutes reliability (blend.py). Yearly salary-cap inflation is on (avg 7%, sd 2.5%, 0-10%). Rookie contracts are 4 years (1st round) and 3 years (2nd round).
