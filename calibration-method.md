@@ -25,10 +25,11 @@
    - re-shift (bisection) so ovr equals the blend's ovr exactly; pot and skills are recomputed by BBGM on import.
 3. Pot recompute for every changed player (`update.py`).
 
-## J5 player-by-player adjustment (live 2026-11-23, `j5.py`)
+## J5 player-by-player adjustment (live 2026-11-23; points/PER terms and ceiling pass marks 2026-11-24, `j5.py`)
 - **Replay harness** (`replay/`): every game played is re-simulated with BBGM's GameSim using the real lineups: the
   real starters, then the rest of that night's players by real minutes; anyone who did not play sits out. 8 node
-  processes, reps per game set by the step (8 in the loop's final check).
+  processes, reps per game set by the step (8 in the loop, 48 in the final check). `ptModifier` is 1 for everyone, as
+  BBGM does for AI teams.
 - **Formula with J5 settings**: profile caps skills 14, tp 5, athletic 3 (total 12/3); engine offsets re-measured in a
   replay at the blend ratings (blended 50/50 with the previous offsets in the stat-shape round).
 - **One scalar per player**, Gauss-Newton on his own evidence: `a += damp * (Wm*slope*gm + Wi*kon*gi - a/tau^2) /
@@ -39,12 +40,31 @@
 - **League constant**: one constant for all players keeps the mean team MOV (BBGM formula: -102.98, 0.3334,
   -0.1609, top 10) at the blend's level. The ovr change is realized by a uniform shift (mostly oIQ/dIQ); hgt and stre
   never move.
-- **Daily**: the table's adjustments plus one Gauss-Newton step for changes in real MPG and on-court +/- since the
-  weekly snapshot (no sims). `FORMULA_CHECK=1` adds a 4-rep replay pass check to the build log.
-- **Weekly output**: `j5-table.json` (adjustments, offsets, snapshot, slope/kon, history), `weekly-status.json|md`.
-  The routine keys on `weekly-status.json` -> `alert` (true = teams below 27/30 within +/-2 W, or the relative player
-  pass rate fell more than 3 points vs last week). `pass` is the full criterion (also >= 90% of players), which J5
-  does not yet meet.
+- **Points and PER terms (live 2026-11-24)**: the same scalar also matches the player's own box score. Points:
+  `+ Wb*sppg*(real PPG - sim PPG)`, `Wb = min(1, gp/5)/1.5^2`; when the PPG miss is over 1 and the +/- evidence points
+  the other way, the +/- term is dropped for that player. PER: `+ 2*min(1, min/400)/3^2 * sper*(real PER - sim PER)`.
+  `sppg` / `sper` (~0.58 PER per ovr) are measured by the same perturbation replay. PER is Hollinger's formula as in
+  BBGM's `advStats.basketball.ts`, league-normalized to 15, computed identically on real and replayed totals (team
+  totals = sums of the team's players, no pace adjustment). Tested against 30+ variants (on-off, ridge plus-minus,
+  team-relative, no plus-minus, higher PER blend weight, endurance/defense channels, top-2 exemptions); see
+  `experiments/docs-merge/phase2/`.
+- **Daily**: the table's adjustments plus one Gauss-Newton step for changes in real MPG, on-court +/- and PPG since
+  the weekly snapshot (no sims; the PER term is refreshed weekly only). A 4-rep replay pass check goes in the build log.
+- **Scorecard** (weekly, 48-rep replay): rotation players (200+ real min) pass the core check when MPG, PPG, RPG, APG
+  (strict / relative tolerances in `weekly-status.md`) and PER (+/-2) all match; teams count when within +/-2 wins.
+- **Noise ceiling** (weekly): 20 runs of ONE simulated season of the games played with the final ratings, each scored
+  against the 48-rep mean of the same ratings, i.e. what perfect ratings would score given BBGM's randomness and the
+  sample sizes so far (Nov 24, 258 games: players ~48.7% relative, teams ~21.4/30).
+- **Pass (ceiling-based, Tony 2026-11-24)**: player relative pass rate >= ceiling - 2 points AND teams within +/-2
+  wins >= round(ceiling teams) - 1. The fixed tolerances cover rerun noise (~1.5 points). The absolute marks
+  (27/30 teams, 90% players) are still reported as `pass_absolute`.
+- **Weekly output**: `j5-table.json` (adjustments, offsets, snapshot, responses, history), `weekly-status.json|md`.
+  The routine keys on `weekly-status.json` -> `alert`: true when the ceiling-based pass fails, or the relative player
+  pass rate fell more than 3 points vs the previous week (compared only when the scorecard definition, `core`, is the
+  same).
+- **Minutes are not decoupled**: BBGM's per-player playing-time modifier (`ptModifier`) would be the clean lever, but
+  `loadTeams.ts` resets it to 1 for every AI-controlled team before each game (and league import resets it too), so it
+  cannot carry real minutes in a shared league file.
 - **Roster order**: `bbgm_roster_order` ports BBGM's `rosterAutoSort` (valueNoPot = 0.8 ovr' + 0.2 PER-based current
   value, ovr' standardized over all players; then `findStarters`), and every team has `keepRosterSorted`.
 
