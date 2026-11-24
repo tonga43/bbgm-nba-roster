@@ -1,6 +1,6 @@
 # Build report 2026-11-24
 Base: BBGM Real Players 2027 ({"maxSeason":"2027","season":"2027","phase":"Preseason","version":"BBGM v2026.11.22.1166"}), exported 2026-11-23T16:46:00-06:00
-Games with box scores: 258; remaining schedule: 942
+Games with box scores: 258; remaining schedule: 944
 
 ## Overlay vs BBGM base
 ### moves (25)
@@ -119,7 +119,7 @@ Games with box scores: 258; remaining schedule: 942
 - DET Taurean Prince: Out, Right Knee Surgery, 5 g (ESPN return date 2026-12-13 (earlier official return honored over type estimate) [ledger updated: estimator version changed] (ledger))
 - GSW Brandon Williams: Out, Left Hamstring Strain, 4 g (table: Hamstring strain: ~7.5 games, median 11 days (use ~2 weeks for Out) [ledger updated: estimator version changed] (ledger))
 - GSW Jimmy Butler: Out, Right Knee Surgery, 37 g (text: return window 'return sometime between January and February' (rehab/progress overrides long type default) [ledger updated: estimator version changed] (ledger))
-- GSW Kristaps Porziņģis: Out, Illness, 15 g (ESPN return date 2027-01-02 [ledger updated: estimator version changed] (ledger))
+- GSW Kristaps Porziņģis: Out, Retired, 300 g (retired/stepping away from report: Illness Porzingis announced on his social media that he's stepping away from basketball. (fixed 300 games, no countdown))
 - GSW Moses Moody: Out, Left Knee Surgery, 21 g (text: return window 'return between December and January' (text longer than earlier official date) [ledger updated: estimator version changed] (ledger))
 - GSW Stephen Curry: Out, Right Abdomen, 9 g (table: Abdominal/oblique tear: ~2 weeks-1 month [ledger updated: estimator version changed] (ledger))
 - IND Aaron Nesmith: Day-To-Day, Foot, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger updated: status changed] (ledger))
@@ -187,44 +187,44 @@ Games with box scores: 258; remaining schedule: 942
 ## Rating blend: biggest risers (formula in blend.py / README)
 | player | team | MIN | MPG | PPG | TS% | BPM | base -> new ovr | pts/36 real, sim | ast/36 real, sim | 3PA rate real, sim |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Meleek Thomas | CLE | 351 | 23.4 | 12.7 | 58.6 | -0.4 | 32 -> 57 (+25) | 19.6, 17.4 | 2.8, 4.9 | 54.1, 44.7 |
-| Caleb Wilson | CHI | 307 | 30.7 | 18.9 | 52.5 | -1.7 | 42 -> 61 (+19) | 22.2, 20.1 | 2.2, 3.9 | 43.8, 27.1 |
-| Jaylin Sellers | CHI | 69 | 9.9 | 5.0 | 58.8 | +2.3 | 34 -> 52 (+18) | 18.3, 14.2 | 6.3, 3.0 | 67.9, 43.1 |
-| Tobe Awaka | CHI | 40 | 10.0 | 2.0 | 60.2 | +0.0 | 32 -> 50 (+18) | 7.2, 11.1 | 2.7, 1.2 | 0.0, 6.0 |
-| Terrence Shannon Jr. | MIN | 345 | 23.0 | 13.1 | 62.0 | +2.4 | 43 -> 59 (+16) | 20.6, 19.3 | 4.7, 5.8 | 41.7, 42.8 |
-| Josh Dix | OKC | 168 | 18.7 | 3.2 | 38.2 | -5.2 | 32 -> 48 (+16) | 6.2, 11.3 | 2.1, 2.7 | 60.5, 40.6 |
-| Koa Peat | PHX | 43 | 4.3 | 2.7 | 69.9 | -1.7 | 34 -> 50 (+16) | 22.6, 14.9 | 0.8, 2.5 | 0.0, 5.8 |
-| Darius Acuff Jr. | SAC | 622 | 36.6 | 24.6 | 50.9 | -2.3 | 42 -> 57 (+15) | 24.2, 24.0 | 7.1, 7.1 | 41.4, 42.7 |
-| Bennett Stirtz | OKC | 345 | 19.2 | 8.3 | 65.1 | +1.7 | 41 -> 56 (+15) | 15.7, 13.5 | 2.9, 3.8 | 67.0, 42.6 |
-| Trey Lyles | MIN | 339 | 18.8 | 6.3 | 61.5 | +1.9 | 40 -> 55 (+15) | 12.1, 11.5 | 2.2, 2.3 | 68.4, 40.9 |
-| Norchad Omier | CLE | 85 | 12.1 | 3.3 | 68.1 | +2.3 | 35 -> 50 (+15) | 9.7, 13.1 | 3.8, 1.1 | 25.0, 21.6 |
-| Chris Cenac Jr. | BOS | 62 | 7.8 | 3.2 | 57.1 | -5.9 | 34 -> 49 (+15) | 15.1, 16.5 | 0.6, 1.6 | 42.9, 26.0 |
-| Brayden Burries | MIL | 415 | 23.1 | 11.4 | 56.7 | -1.2 | 42 -> 56 (+14) | 17.9, 17.0 | 3.9, 4.3 | 42.9, 41.2 |
-| Allen Graves | TOR | 287 | 16.9 | 5.6 | 56.6 | +0.4 | 38 -> 52 (+14) | 12.0, 12.1 | 1.6, 1.1 | 53.9, 36.1 |
-| Jalen Slawson | IND | 230 | 14.4 | 4.8 | 63.1 | +0.8 | 42 -> 56 (+14) | 12.1, 11.4 | 3.0, 2.7 | 38.0, 26.8 |
+| Meleek Thomas | CLE | 351 | 23.4 | 12.7 | 58.6 | -0.4 | 32 -> 57 (+25) | 19.6, 17.1 | 2.8, 5.2 | 54.1, 44.6 |
+| Caleb Wilson | CHI | 307 | 30.7 | 18.9 | 52.5 | -1.7 | 42 -> 61 (+19) | 22.2, 20.2 | 2.2, 3.7 | 43.8, 27.2 |
+| Jaylin Sellers | CHI | 69 | 9.9 | 5.0 | 58.8 | +2.3 | 34 -> 52 (+18) | 18.3, 13.7 | 6.3, 3.3 | 67.9, 43.9 |
+| Tobe Awaka | CHI | 40 | 10.0 | 2.0 | 60.2 | +0.0 | 32 -> 50 (+18) | 7.2, 13.4 | 2.7, 1.6 | 0.0, 5.9 |
+| Terrence Shannon Jr. | MIN | 345 | 23.0 | 13.1 | 62.0 | +2.4 | 43 -> 59 (+16) | 20.6, 19.6 | 4.7, 5.6 | 41.7, 45.0 |
+| Josh Dix | OKC | 168 | 18.7 | 3.2 | 38.2 | -5.2 | 32 -> 48 (+16) | 6.2, 11.8 | 2.1, 2.0 | 60.5, 39.8 |
+| Koa Peat | PHX | 43 | 4.3 | 2.7 | 69.9 | -1.7 | 34 -> 50 (+16) | 22.6, 15.2 | 0.8, 2.9 | 0.0, 5.3 |
+| Darius Acuff Jr. | SAC | 622 | 36.6 | 24.6 | 50.9 | -2.3 | 42 -> 57 (+15) | 24.2, 23.6 | 7.1, 7.0 | 41.4, 43.0 |
+| Bennett Stirtz | OKC | 345 | 19.2 | 8.3 | 65.1 | +1.7 | 41 -> 56 (+15) | 15.7, 13.3 | 2.9, 3.8 | 67.0, 44.7 |
+| Trey Lyles | MIN | 339 | 18.8 | 6.3 | 61.5 | +1.9 | 40 -> 55 (+15) | 12.1, 12.1 | 2.2, 2.3 | 68.4, 42.9 |
+| Norchad Omier | CLE | 85 | 12.1 | 3.3 | 68.1 | +2.3 | 35 -> 50 (+15) | 9.7, 13.0 | 3.8, 1.3 | 25.0, 21.1 |
+| Chris Cenac Jr. | BOS | 62 | 7.8 | 3.2 | 57.1 | -5.9 | 34 -> 49 (+15) | 15.1, 15.6 | 0.6, 1.2 | 42.9, 26.1 |
+| Brayden Burries | MIL | 415 | 23.1 | 11.4 | 56.7 | -1.2 | 42 -> 56 (+14) | 17.9, 17.2 | 3.9, 4.2 | 42.9, 41.4 |
+| Allen Graves | TOR | 287 | 16.9 | 5.6 | 56.6 | +0.4 | 38 -> 52 (+14) | 12.0, 11.8 | 1.6, 1.0 | 53.9, 35.5 |
+| Jalen Slawson | IND | 230 | 14.4 | 4.8 | 63.1 | +0.8 | 42 -> 56 (+14) | 12.1, 11.2 | 3.0, 2.6 | 38.0, 27.6 |
 
 ## Rating blend: biggest fallers
 | player | team | MIN | MPG | PPG | TS% | BPM | base -> new ovr | pts/36 real, sim | ast/36 real, sim | 3PA rate real, sim |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Jalen Suggs | ORL | 229 | 28.6 | 9.2 | 45.3 | -5.4 | 66 -> 52 (-14) | 11.6, 13.4 | 5.0, 1.8 | 50.7, 37.5 |
-| Kon Knueppel | CHA | 6 | 6.0 | 3.0 | 64.7 | -18.9 | 57 -> 43 (-14) | 18.0, 15.4 | 0.0, 2.5 | 100.0, 46.6 |
-| Deandre Ayton | WAS | 225 | 12.5 | 3.6 | 64.2 | -1.9 | 59 -> 47 (-12) | 10.4, 11.1 | 2.2, 1.1 | 0.0, 6.4 |
-| Josh Giddey | CHI | 480 | 28.2 | 10.4 | 49.7 | -0.5 | 66 -> 55 (-11) | 13.2, 14.7 | 11.9, 8.9 | 38.4, 32.7 |
-| Coby White | CHA | 190 | 21.1 | 13.4 | 48.1 | -5.2 | 54 -> 43 (-11) | 22.9, 20.4 | 6.4, 5.4 | 48.2, 44.6 |
-| Mikal Bridges | NYK | 449 | 26.4 | 7.8 | 48.4 | -1.8 | 65 -> 55 (-10) | 10.7, 11.0 | 3.0, 1.5 | 44.8, 39.9 |
-| Bennedict Mathurin | NOP | 183 | 15.2 | 5.5 | 46.5 | -8.2 | 58 -> 48 (-10) | 13.0, 14.0 | 2.8, 1.0 | 40.6, 27.6 |
-| Kawhi Leonard | TOR | 52 | 26.0 | 19.5 | 46.6 | +1.8 | 68 -> 59 (-9) | 27.0, 21.3 | 2.1, 0.9 | 37.8, 26.6 |
-| Tre Mann | WAS | 41 | 5.1 | 1.2 | 42.5 | -3.3 | 54 -> 45 (-9) | 8.8, 16.5 | 3.5, 5.3 | 50.0, 39.3 |
-| Royce O'Neale | CHA | 320 | 20.0 | 5.6 | 56.7 | -2.2 | 57 -> 49 (-8) | 10.0, 11.7 | 1.2, 2.0 | 92.0, 45.9 |
-| Nikola Vučević | ORL | 160 | 11.4 | 3.7 | 52.8 | +0.1 | 54 -> 46 (-8) | 11.7, 13.3 | 3.8, 3.0 | 57.4, 32.9 |
-| Santi Aldama | DAL | 104 | 13.0 | 6.1 | 51.6 | -6.0 | 61 -> 53 (-8) | 17.0, 16.7 | 1.7, 1.3 | 56.8, 38.3 |
-| Dru Smith | MIA | 57 | 8.1 | 2.1 | 51.2 | -5.9 | 58 -> 50 (-8) | 9.5, 11.4 | 5.7, 2.1 | 66.7, 35.4 |
-| Caris LeVert | MIL | 32 | 8.0 | 2.8 | 46.3 | +3.2 | 55 -> 47 (-8) | 12.4, 11.7 | 3.4, 2.9 | 36.4, 39.6 |
-| Herbert Jones | NOP | 469 | 24.7 | 6.6 | 44.5 | -6.9 | 61 -> 54 (-7) | 9.7, 9.5 | 2.5, 2.0 | 46.7, 36.1 |
+| Jalen Suggs | ORL | 229 | 28.6 | 9.2 | 45.3 | -5.4 | 66 -> 52 (-14) | 11.6, 12.8 | 5.0, 1.9 | 50.7, 36.8 |
+| Kon Knueppel | CHA | 6 | 6.0 | 3.0 | 64.7 | -18.9 | 57 -> 43 (-14) | 18.0, 18.4 | 0.0, 1.7 | 100.0, 41.1 |
+| Deandre Ayton | WAS | 225 | 12.5 | 3.6 | 64.2 | -1.9 | 59 -> 47 (-12) | 10.4, 11.0 | 2.2, 1.0 | 0.0, 5.9 |
+| Josh Giddey | CHI | 480 | 28.2 | 10.4 | 49.7 | -0.5 | 66 -> 55 (-11) | 13.2, 14.4 | 11.9, 9.1 | 38.4, 31.6 |
+| Coby White | CHA | 190 | 21.1 | 13.4 | 48.1 | -5.2 | 54 -> 43 (-11) | 22.9, 19.4 | 6.4, 5.9 | 48.2, 44.9 |
+| Mikal Bridges | NYK | 449 | 26.4 | 7.8 | 48.4 | -1.8 | 65 -> 55 (-10) | 10.7, 10.8 | 3.0, 1.6 | 44.8, 39.4 |
+| Bennedict Mathurin | NOP | 183 | 15.2 | 5.5 | 46.5 | -8.2 | 58 -> 48 (-10) | 13.0, 14.7 | 2.8, 1.1 | 40.6, 27.1 |
+| Kawhi Leonard | TOR | 52 | 26.0 | 19.5 | 46.6 | +1.8 | 68 -> 59 (-9) | 27.0, 21.8 | 2.1, 1.2 | 37.8, 28.1 |
+| Tre Mann | WAS | 41 | 5.1 | 1.2 | 42.5 | -3.3 | 54 -> 45 (-9) | 8.8, 14.1 | 3.5, 5.3 | 50.0, 36.5 |
+| Royce O'Neale | CHA | 320 | 20.0 | 5.6 | 56.7 | -2.2 | 57 -> 49 (-8) | 10.0, 11.4 | 1.2, 1.7 | 92.0, 44.7 |
+| Nikola Vučević | ORL | 160 | 11.4 | 3.7 | 52.8 | +0.1 | 54 -> 46 (-8) | 11.7, 13.7 | 3.8, 2.9 | 57.4, 34.8 |
+| Santi Aldama | DAL | 104 | 13.0 | 6.1 | 51.6 | -6.0 | 61 -> 53 (-8) | 17.0, 16.1 | 1.7, 1.4 | 56.8, 40.3 |
+| Dru Smith | MIA | 57 | 8.1 | 2.1 | 51.2 | -5.9 | 58 -> 50 (-8) | 9.5, 9.9 | 5.7, 2.0 | 66.7, 33.9 |
+| Caris LeVert | MIL | 32 | 8.0 | 2.8 | 46.3 | +3.2 | 55 -> 47 (-8) | 12.4, 10.9 | 3.4, 3.3 | 36.4, 37.5 |
+| Herbert Jones | NOP | 469 | 24.7 | 6.6 | 44.5 | -6.9 | 61 -> 54 (-7) | 9.7, 9.5 | 2.5, 1.9 | 46.7, 34.3 |
 
 ## J5 replay calibration and roster order
-- Weekly table from 2026-11-24 06:55 CST (258 games); 469 player adjustments, 0 updated for games since; league constant +0.47; 0.56 s
-- Lineup-matched replay check: teams within ±2 wins 23/30 (wins RMSE 1.59); rotation players inside core tolerance: strict 45%, relative 52%
+- Weekly table from 2026-11-24 06:55 CST (258 games); 469 player adjustments, 0 updated for games since; league constant +0.47; 0.62 s
+- Lineup-matched replay check: teams within ±2 wins 23/30 (wins RMSE 1.67); rotation players inside core tolerance: strict 46%, relative 52%
 - Starters match (BBGM auto-sorted top 5 vs real starters, latest game): 5/30 exact, 21/30 with 4+ of 5 (counting injured players too: 4/30 exact, 13/30 4+)
 
 ## All rating changes (436)

@@ -48,6 +48,11 @@
   totals = sums of the team's players, no pace adjustment). Tested against 30+ variants (on-off, ridge plus-minus,
   team-relative, no plus-minus, higher PER blend weight, endurance/defense channels, top-2 exemptions); see
   `experiments/docs-merge/phase2/`.
+- **Small samples (live 2026-11-24 pm)**: every evidence term (minutes, +/-, points, PER) is multiplied by the
+  blend's reliability `w = 1 - exp(-(MIN/300)^1.6)`, and the adjustment is capped at `+/-(1 + 6w)` ovr (135 min ->
+  +/-2.5, 300 min -> +/-4.8, a full sample -> +/-7). A player with a few games leans on his prior (the blend/formula
+  rating, which itself starts from last season's BBGM rating). Before this, a 4-game stretch could move a player by up
+  to 15 (Anthony Edwards +7.1 at 135 min; rookies with 40-70 min +9 to +11).
 - **Daily**: the table's adjustments plus one Gauss-Newton step for changes in real MPG, on-court +/- and PPG since
   the weekly snapshot (no sims; the PER term is refreshed weekly only). A 4-rep replay pass check goes in the build log.
 - **Scorecard** (weekly, 48-rep replay): rotation players (200+ real min) pass the core check when MPG, PPG, RPG, APG

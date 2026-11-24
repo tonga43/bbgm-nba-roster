@@ -3758,3 +3758,7 @@
 - Jaden Akins (NYK): 42 -> 40
 - Jonas Aidoo (UTA): 43 -> 41
 
+## 2026-11-24
+### Injury updates (1)
+- Kristaps Porziņģis (GSW): Retired
+
