@@ -2719,3 +2719,12 @@
 - History added (6:15 PM CT): real league history 1947-2026 (champions, awards, playoff brackets, team seasons, about 4,300 retired players, defunct franchises) from BBGM's own "All seasons, teams, and players" data.
 
 - Pot (6:20 PM CT): players whose ratings changed now get potential recomputed by BBGM on every build. Historical seasons use the real franchise names of each era.
+## 2026-11-23 (method change: simulation-calibrated skill profiles)
+- Ratings are now "hybrid": the production blend (blend.py, unchanged safeguards) still sets each player's ovr, then
+  simfit.py runs BBGM's own game engine (injuries off) over this season's real schedule and reshapes each player's
+  skill profile, at the same ovr, so the simulated per-36 lines match his real ones (points, rebounds, assists,
+  steals, blocks, turnovers, shot volume, 3PA and FT rates, FT%). Every ovr is unchanged from the previous file;
+  369 players' skills were reshaped (1-3 points per skill on average).
+- A pure sim fit (sim sets ovr too) was tested and not adopted: out of sample it predicted team results no better
+  than BBGM's base ratings, while the blend did clearly better.
+
