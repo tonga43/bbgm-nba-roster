@@ -48,11 +48,25 @@
   totals = sums of the team's players, no pace adjustment). Tested against 30+ variants (on-off, ridge plus-minus,
   team-relative, no plus-minus, higher PER blend weight, endurance/defense channels, top-2 exemptions); see
   `experiments/docs-merge/phase2/`.
-- **Small samples (live 2026-11-24 pm)**: every evidence term (minutes, +/-, points, PER) is multiplied by the
-  blend's reliability `w = 1 - exp(-(MIN/300)^1.6)`, and the adjustment is capped at `+/-(1 + 6w)` ovr (135 min ->
-  +/-2.5, 300 min -> +/-4.8, a full sample -> +/-7). A player with a few games leans on his prior (the blend/formula
-  rating, which itself starts from last season's BBGM rating). Before this, a 4-game stretch could move a player by up
-  to 15 (Anthony Edwards +7.1 at 135 min; rookies with 40-70 min +9 to +11).
+- **Small samples (live 2026-11-24 pm)**: the noisy evidence terms (+/-, points, PER) are multiplied by the blend's
+  reliability `w = 1 - exp(-(MIN/300)^1.6)`, and the adjustment is capped at `+/-(1 + 14w)` ovr (40 min -> +/-1.6,
+  135 min -> +/-4.4, 300 min -> +/-9.9, a full sample -> +/-15, the old cap). The minutes term is bounded by the cap
+  but not scaled (MPG is stable game to game; scaling it too cost ~3-4 points of player pass rate, see
+  `experiments/docs-merge/phase2/R*`). A player with a few games leans on his prior: the blend/formula rating, which
+  starts from BBGM's rating built on last season. Before this, 4 games could move a player up to 15 (Anthony Edwards
+  +7.1 at 135 min; rookies with 40-70 min +9 to +11, mostly the minutes term pushing against BBGM's rotation floor).
+- **Rookies (Tony 2026-11-24)**: first-season players (draft class just before this season) keep `ROOKIE_ADJ_SCALE`
+  = 90% of their final J5 adjustment (+10 -> +9, -10 -> -9), weekly and daily; the table stores the unscaled value.
+- **Role-player penalty (Tony 2026-11-24)**: each target ovr loses `role_penalty(ovr)` before the league constant is
+  solved: 0 at 61+, 0.5 at 60, rising linearly to 4.5 at 40 and below (`ROLE_PEN`). This is half of BBGM's 2020 Real
+  Players rule (~1-9). The full curve failed the ceiling marks (player pass 42-44% vs a 46-47% mark, teams no better),
+  because BBGM's base ratings already carry its penalty. The league constant gives the removed strength back to everyone,
+  so depth falls only a little (55+ players 202 -> ~197).
+- **Where a player's base -> new gap comes from** (build report "steps"): (1) the production blend, `blend.py`:
+  `wb*(EXPECTED - BASE)` with `wb = MIN/(MIN+250)` (100 for rookies) plus its league re-centring; (2) the skill-profile
+  formula (ovr-neutral); (3) the J5 adjustment above; (4) the role-player penalty; (5) J5's league constant; then rounding. The blend and J5 are
+  not double counting: J5's evidence is measured in a replay of the already-blended ratings, so it only carries what
+  the blend left unexplained (e.g. Jamal Murray: 64 -> blend 68 -> J5 +2.5 -> league +0.5 -> 71).
 - **Daily**: the table's adjustments plus one Gauss-Newton step for changes in real MPG, on-court +/- and PPG since
   the weekly snapshot (no sims; the PER term is refreshed weekly only). A 4-rep replay pass check goes in the build log.
 - **Scorecard** (weekly, 48-rep replay): rotation players (200+ real min) pass the core check when MPG, PPG, RPG, APG
