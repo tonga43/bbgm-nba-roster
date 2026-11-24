@@ -67,6 +67,15 @@
   formula (ovr-neutral); (3) the J5 adjustment above; (4) the role-player penalty; (5) J5's league constant; then rounding. The blend and J5 are
   not double counting: J5's evidence is measured in a replay of the already-blended ratings, so it only carries what
   the blend left unexplained (e.g. Jamal Murray: 64 -> blend 68 -> J5 +2.5 -> league +0.5 -> 71).
+- **Stat shape converges with the ovr step (Tony 2026-11-24, t80u)**: the skill-profile solve used to be undone each
+  round: it was solved at the blend rating, then the J5 ovr step (realize2: mostly oIQ/dIQ) raised passing and
+  creation again, and the engine offsets only moved half a step. Now each round's shape targets include
+  `shift_comp` = model(simulated ratings, simulated role) - model(shape-solved ratings), so the profile is solved for the
+  ratings that are actually simulated, and the measured engine offsets are applied in full (`off_blend` 1.0).
+- **Points term on the scoring rate**: the points miss is `(real pts/min - sim pts/min) x real MPG` with sensitivity
+  `d(pts/36)/d ovr x MPG/36` (measured by the same perturbation replay). A player the sim plays fewer minutes than
+  real no longer gets pushed up twice (once by minutes, once by the PPG those minutes cost). Davion Mitchell: +4.5 ->
+  ~+2.5, 69 -> 67, sim APG 9.8 -> ~8.5 (real 8.6), sim PER 19.9 -> ~18 (real 17.4).
 - **Daily**: the table's adjustments plus one Gauss-Newton step for changes in real MPG, on-court +/- and PPG since
   the weekly snapshot (no sims; the PER term is refreshed weekly only). A 4-rep replay pass check goes in the build log.
 - **Scorecard** (weekly, 48-rep replay): rotation players (200+ real min) pass the core check when MPG, PPG, RPG, APG
