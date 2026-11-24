@@ -2715,3 +2715,5 @@
 
 
 - Method change (5:30 PM CT): ratings now blend 2026-27 production against the BBGM base, with up to +/-7 ovr at full minutes reliability (blend.py). Yearly salary-cap inflation is on (avg 7%, sd 2.5%, 0-10%). Rookie contracts are 4 years (1st round) and 3 years (2nd round).
+
+- History added (6:15 PM CT): real league history 1947-2026 (champions, awards, playoff brackets, team seasons, about 4,300 retired players, defunct franchises) from BBGM's own "All seasons, teams, and players" data.
