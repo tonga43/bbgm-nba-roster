@@ -3,8 +3,8 @@
 ## What runs when
 | job | command | what it does | runtime (Nov 23, 248 games played) |
 |---|---|---|---|
-| daily (publish.sh) | `update.py` (`RATING_METHOD=formula`, default) | blend sets ovr; saved formula reshapes skill profiles; 2 quick check sims for the report | ratings step about 5 s (formula 0.4 s + checks), whole build about 20 s offline / 45 s with fetches |
-| weekly (Sunday) | `calibrate.py` (`--force` to refit regardless) | re-sims the season with blend / full sim fit / formula, drift check, refit if worse | about 50 s now; scales with games played (a few minutes by March) |
+| daily (publish.sh) | `update.py` (`RATING_METHOD=formula`, default) | blend sets ovr; formula reshapes skill profiles; J5 table applied (+ update for new games); BBGM roster sort | J5 apply 0.5 s; whole build about 18 s offline (Nov 23) |
+| weekly (Sunday) | `calibrate.py` (`--force` to refit regardless) | surrogate drift check (as before), then the J5 lineup-matched replay loop, the pass check and the starters match | about 75 s now (surrogate 25 s + J5 46 s); scales with games played |
 
 ## Pipeline per player (daily)
 1. **Blend (`blend.py`)** sets ovr from BBGM's Real Players base plus 2026-27 production (BPM, PER, WS/48, usage x
@@ -25,7 +25,30 @@
    - re-shift (bisection) so ovr equals the blend's ovr exactly; pot and skills are recomputed by BBGM on import.
 3. Pot recompute for every changed player (`update.py`).
 
-## Calibration (weekly, `calibrate.py`)
+## J5 player-by-player adjustment (live 2026-11-23, `j5.py`)
+- **Replay harness** (`replay/`): every game played is re-simulated with BBGM's GameSim using the real lineups: the
+  real starters, then the rest of that night's players by real minutes; anyone who did not play sits out. 8 node
+  processes, reps per game set by the step (8 in the loop's final check).
+- **Formula with J5 settings**: profile caps skills 14, tp 5, athletic 3 (total 12/3); engine offsets re-measured in a
+  replay at the blend ratings (blended 50/50 with the previous offsets in the stat-shape round).
+- **One scalar per player**, Gauss-Newton on his own evidence: `a += damp * (Wm*slope*gm + Wi*kon*gi - a/tau^2) /
+  (Wm*slope^2 + 5*Wi*kon^2 + 1/tau^2)`, where `gm` = real - sim MPG, `gi` = real on-court +/- per 48 (+ a shift toward
+  the team's win%, `0.75*(28.7*(win%-0.5) - real PD)`) - sim on-court +/- per 48; `Wm = min(1, gp/5)/2.5^2`,
+  `Wi = min/6912`, `tau = 6`, `damp = 0.8`, 8 rounds, cap +/-15. `slope` (~0.75 MPG per ovr) and `kon` (~0.38 per 48 per
+  ovr) are measured each week by perturbation replays. No team step, no team cap.
+- **League constant**: one constant for all players keeps the mean team MOV (BBGM formula: -102.98, 0.3334,
+  -0.1609, top 10) at the blend's level. The ovr change is realized by a uniform shift (mostly oIQ/dIQ); hgt and stre
+  never move.
+- **Daily**: the table's adjustments plus one Gauss-Newton step for changes in real MPG and on-court +/- since the
+  weekly snapshot (no sims). `FORMULA_CHECK=1` adds a 4-rep replay pass check to the build log.
+- **Weekly output**: `j5-table.json` (adjustments, offsets, snapshot, slope/kon, history), `weekly-status.json|md`.
+  The routine keys on `weekly-status.json` -> `alert` (true = teams below 27/30 within +/-2 W, or the relative player
+  pass rate fell more than 3 points vs last week). `pass` is the full criterion (also >= 90% of players), which J5
+  does not yet meet.
+- **Roster order**: `bbgm_roster_order` ports BBGM's `rosterAutoSort` (valueNoPot = 0.8 ovr' + 0.2 PER-based current
+  value, ovr' standardized over all players; then `findStarters`), and every team has `keepRosterSorted`.
+
+## Surrogate calibration (weekly, `calibrate.py`)
 - Training data: 64 league sims x 3 reps of the season's real schedule (injuries off, real availability and
   rotation order), each with every player's 13 ratings randomly perturbed (+/-10 skills, +/-4 athletic) around the
   current blended ratings, giving about 27,000 player-season rows per fit.
