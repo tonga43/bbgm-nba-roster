@@ -2,7 +2,7 @@
 
 A [Basketball GM](https://play.basketball-gm.com) league file of the **current real NBA season (2026-27)**. It is built on
 BBGM's own *Real Players* league, which brings full rating and stat history, awards, contracts with extensions, real
-draft-pick ownership and real draft classes. Ratings blend BBGM's base with 2026-27 production, weighted by minutes. Then each player's skill profile is tuned, at the same overall, until BBGM's own game engine reproduces his real 2026-27 per-36 stats when the season so far is re-simulated. Yearly cap inflation is on (7% average), with 4- and 3-year rookie deals. Each morning, after the night's games, it is updated with real life:
+draft-pick ownership and real draft classes. Ratings blend BBGM's base with 2026-27 production, weighted by minutes. Then each player's skill profile is tuned, at the same overall, so BBGM's own game engine reproduces his real 2026-27 per-36 stats. This uses a formula calibrated weekly against re-simulations of the season so far (see calibration-report.md). Yearly cap inflation is on (7% average), with 4- and 3-year rookie deals. Each morning, after the night's games, it is updated with real life:
 current rosters (trades, signings, releases), injuries with return timelines, standings, **real box scores of every
 game played so far**, and the remaining real schedule.
 
