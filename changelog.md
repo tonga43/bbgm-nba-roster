@@ -4364,3 +4364,180 @@
 - Rocco Zikarsky (MIN): 22 -> 23
 - Ivica Zubac (IND): 57 -> 56
 
+## 2026-11-25
+### Injury updates (5)
+- OG Anunoby (NYK): Left Calf Soreness
+- Cade Cunningham (DET): Knee
+- Joel Embiid (PHI): Illness
+- Aday Mara (OKC): Right Lower Leg Bruise
+- Jaylin Williams (OKC): Back Spasms
+### Returned from injury (2)
+- Alex Caruso (OKC)
+- Johnny Furphy (IND)
+### Rating moves (ovr) (165)
+- Darius Acuff Jr. (SAC): 55 -> 54
+- Steven Adams (HOU): 50 -> 48
+- Santi Aldama (DAL): 53 -> 52
+- Nickeil Alexander-Walker (ATL): 61 -> 62
+- Jarrett Allen (CLE): 58 -> 57
+- Nate Ament (MIL): 49 -> 50
+- Christian Anderson Jr. (CHA): 41 -> 47
+- Deni Avdija (POR): 66 -> 67
+- Ace Bailey (UTA): 56 -> 57
+- Harrison Barnes (SAS): 52 -> 49
+- Scottie Barnes (TOR): 67 -> 68
+- Brooks Barnhizer (OKC): 45 -> 48
+- Jamison Battle (TOR): 53 -> 55
+- Joan Beringer (MIN): 52 -> 54
+- Goga Bitadze (ORL): 47 -> 46
+- Anthony Black (ORL): 61 -> 59
+- Adem Bona (PHI): 46 -> 47
+- Trevon Brazile (DEN): 52 -> 50
+- Mikal Bridges (NYK): 55 -> 54
+- Kobe Brown (IND): 37 -> 39
+- Jalen Brunson (NYK): 63 -> 62
+- Thomas Bryant (CLE): 48 -> 47
+- Brayden Burries (MIL): 55 -> 56
+- Kentavious Caldwell-Pope (PHI): 55 -> 54
+- Toumani Camara (POR): 60 -> 59
+- Dylan Cardwell (SAC): 43 -> 41
+- Branden Carlson (POR): 47 -> 45
+- Cameron Carr (LAL): 38 -> 39
+- Bub Carrington (WAS): 49 -> 48
+- Jevon Carter (ORL): 45 -> 47
+- Stephon Castle (SAS): 61 -> 62
+- Julian Champagnie (SAS): 62 -> 63
+- Moussa Cisse (DAL): 41 -> 40
+- Walter Clayton (DAL): 45 -> 46
+- Donovan Clingan (POR): 60 -> 62
+- LJ Cryer (GSW): 47 -> 48
+- Anthony Davis (WAS): 65 -> 66
+- Gradey Dick (LAC): 50 -> 51
+- Luka Dončić (LAL): 72 -> 71
+- Alpha Diallo (DEN): 42 -> 40
+- Jaylin Sellers (CHI): 41 -> 45
+- Kevin Durant (HOU): 65 -> 66
+- Zach Edey (MEM): 55 -> 56
+- VJ Edgecombe (PHI): 62 -> 61
+- Kyle Filipowski (UTA): 44 -> 47
+- Cooper Flagg (DAL): 67 -> 68
+- Kingston Flemings (ATL): 52 -> 54
+- Rasheer Fleming (PHX): 41 -> 40
+- Simone Fontecchio (MIA): 48 -> 49
+- De'Aaron Fox (SAS): 63 -> 64
+- Darius Garland (LAC): 58 -> 59
+- Kyshawn George (WAS): 59 -> 60
+- Paul George (BOS): 62 -> 64
+- Shai Gilgeous-Alexander (OKC): 75 -> 74
+- Ja'Kobi Gillespie (SAS): 36 -> 39
+- Hugo González (BOS): 49 -> 48
+- Aaron Gordon (DEN): 60 -> 59
+- Javonte Green (DET): 55 -> 56
+- Josh Green (UTA): 49 -> 50
+- Rui Hachimura (LAC): 57 -> 59
+- James Harden (CLE): 59 -> 58
+- Elijah Harkless (DET): 40 -> 42
+- Ron Harper Jr. (BOS): 42 -> 41
+- Sam Hauser (BOS): 57 -> 56
+- Jordan Hawkins (CHI): 44 -> 46
+- Scoot Henderson (POR): 50 -> 51
+- Taylor Hendricks (MEM): 54 -> 53
+- Tyler Herro (MIL): 60 -> 61
+- Mario Hezonja (CLE): 54 -> 53
+- Jrue Holiday (POR): 64 -> 65
+- Ron Holland (DET): 53 -> 55
+- Kevin Huerter (DET): 58 -> 59
+- Brandon Ingram (LAC): 65 -> 63
+- Kyrie Irving (DAL): 62 -> 60
+- Trayce Jackson-Davis (TOR): 45 -> 47
+- Jaime Jaquez Jr. (MIL): 56 -> 55
+- Ty Jerome (MEM): 61 -> 62
+- Isaiah Joe (DET): 53 -> 55
+- Morez Johnson Jr. (DAL): 50 -> 52
+- Tre Johnson (WAS): 51 -> 49
+- Nikola Jokić (DEN): 75 -> 74
+- Spencer Jones (DEN): 52 -> 53
+- Tre Jones (CHI): 53 -> 55
+- Tyus Jones (DEN): 46 -> 45
+- Nikola Jović (MIA): 52 -> 53
+- Jayson Kent (POR): 44 -> 45
+- Yanic Konan Niederhäuser (LAC): 42 -> 40
+- Luke Kornet (SAS): 50 -> 51
+- Chaz Lanier (DET): 44 -> 43
+- Jake LaRavia (LAL): 56 -> 57
+- Tobi Lawal (DAL): 41 -> 43
+- Caris LeVert (MIL): 55 -> 53
+- Alijah Martin (TOR): 49 -> 48
+- Caleb Martin (DAL): 53 -> 56
+- Bennedict Mathurin (NOP): 47 -> 46
+- Karlo Matković (NOP): 47 -> 49
+- Tyrese Maxey (PHI): 67 -> 66
+- Jared McCain (OKC): 56 -> 55
+- Jaden McDaniels (MIN): 67 -> 68
+- Bryce McGowens (NOP): 43 -> 45
+- Sam Merrill (CLE): 56 -> 57
+- Khris Middleton (WAS): 50 -> 48
+- Brandon Miller (CHA): 54 -> 53
+- Riley Minix (CLE): 39 -> 38
+- Yves Missi (NOP): 49 -> 47
+- Ajay Mitchell (OKC): 60 -> 59
+- Donovan Mitchell (CLE): 66 -> 64
+- Malik Monk (SAC): 44 -> 45
+- Alex Morales (ORL): 43 -> 41
+- Collin Murray-Boyles (TOR): 54 -> 53
+- Jamal Murray (DEN): 72 -> 70
+- Keegan Murray (SAC): 54 -> 52
+- Kris Murray (MEM): 52 -> 53
+- Grant Nelson (BKN): 34 -> 35
+- Andrew Nembhard (IND): 61 -> 59
+- Aaron Nesmith (IND): 57 -> 56
+- Josh Okogie (UTA): 47 -> 46
+- Norchad Omier (CLE): 42 -> 43
+- Royce O'Neale (CHA): 49 -> 47
+- Kelly Oubre Jr. (IND): 56 -> 57
+- Labaron Philon Jr. (PHI): 42 -> 43
+- Jordan Poole (NOP): 54 -> 58
+- Michael Porter Jr. (BKN): 61 -> 58
+- Tyrese Proctor (CLE): 55 -> 53
+- Neemias Queta (BOS): 57 -> 60
+- Immanuel Quickley (TOR): 58 -> 56
+- Tarris Reed Jr. (SAS): 42 -> 46
+- Paul Reed (DET): 59 -> 58
+- Jase Richardson (ORL): 46 -> 44
+- Zaccharie Risacher (DAL): 57 -> 56
+- Ryan Rollins (MIL): 53 -> 52
+- Domantas Sabonis (SAC): 60 -> 61
+- Kobe Sanders (LAC): 53 -> 56
+- Gui Santos (GSW): 50 -> 49
+- Alex Sarr (WAS): 58 -> 57
+- Alperen Şengün (HOU): 70 -> 69
+- Emanuel Sharp (SAC): 42 -> 39
+- Anfernee Simons (PHI): 56 -> 54
+- Jalen Slawson (IND): 55 -> 57
+- Javon Small (MEM): 53 -> 52
+- Braden Smith (IND): 45 -> 44
+- Jalen Smith (CHI): 58 -> 59
+- Cam Spencer (MEM): 59 -> 60
+- Jalen Suggs (ORL): 54 -> 53
+- Jayson Tatum (BOS): 62 -> 64
+- Meleek Thomas (CLE): 55 -> 56
+- Amen Thompson (HOU): 64 -> 65
+- Ausar Thompson (DET): 61 -> 62
+- Matisse Thybulle (LAL): 57 -> 58
+- John Tonje (POR): 42 -> 44
+- Myles Turner (MIL): 53 -> 56
+- Fred VanVleet (HOU): 62 -> 60
+- Dean Wade (PHI): 57 -> 54
+- Keaton Wagler (LAC): 51 -> 50
+- Jabari Walker (PHI): 49 -> 50
+- Jordan Walsh (BOS): 48 -> 47
+- Kel'el Ware (MIL): 50 -> 52
+- Coby White (CHA): 42 -> 43
+- Derrick White (BOS): 59 -> 58
+- Kenrich Williams (OKC): 54 -> 56
+- Patrick Williams (CHI): 53 -> 54
+- Danny Wolf (BKN): 52 -> 53
+- Trae Young (WAS): 56 -> 57
+- Ivica Zubac (IND): 56 -> 55
+- Jonas Aidoo (UTA): 39 -> 37
+
