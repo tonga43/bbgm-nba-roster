@@ -1,4 +1,4 @@
-# Build report 2026-11-26
+# Build report 2026-11-27
 Base: BBGM Real Players 2027 ({"maxSeason":"2027","season":"2027","phase":"Preseason","version":"BBGM v2026.11.22.1166"}), exported 2026-11-23T16:46:00-06:00
 Games with box scores: 270; remaining schedule: 932
 
@@ -96,58 +96,61 @@ Games with box scores: 270; remaining schedule: 932
 - ATL Asa Newell: Out, Left Toe, 57 g (text: re-eval 'approximately four months' + 7d buffer [ledger updated: estimator version changed] (ledger))
 - ATL CJ McCollum: Out, Left Calf Strain, 9 g (text: 'at least four weeks' [ledger updated: estimator version changed] (ledger))
 - ATL Henri Veesaar: Out, Right Knee, 79 g (table: ACL tear: out for season (~11-12 months NBA RTP) [ledger updated: estimator version changed] (ledger))
-- ATL Jock Landale: Out, Right Hip Inflammation, 1 g (ESPN return date 2026-11-27 (earlier official return honored over type estimate) [ledger updated: estimator version changed] (ledger) (out, floor 1 game))
+- ATL Jock Landale: Out, Right Hip Inflammation, 1 g (ESPN return date 2026-11-29 (earlier official return honored over type estimate) [ledger updated: official return date changed])
 - ATL Mouhamed Gueye: Out, Left Foot Fracture, 12 g (text: re-eval 'four weeks' + 7d buffer [ledger updated: estimator version changed] (ledger))
-- BKN Moritz Wagner: Out, Left Knee Soreness, 1 g (ESPN return date 2026-11-27 (earlier official return honored over type estimate) [ledger: first sight] (out, floor 1 game))
+- BKN Moritz Wagner: Out, Left Knee Soreness, 1 g (ESPN return date 2026-11-28 (earlier official return honored over type estimate) [ledger updated: official return date changed])
 - BKN Nolan Traoré: Out, Right Hamstring Strain, 32 g (ESPN return date 2027-01-27 (re-eval, +7d buffer) [ledger updated: estimator version changed] (ledger))
 - BOS Mitchell Robinson: Out, Illness, 1 g (ESPN return date 2026-11-27 [ledger updated: estimator version changed] (ledger) (out, floor 1 game))
 - CHA Dennis Schröder: Out, Left Hamstring Strain, 4 g (text: re-eval 'two weeks' + 7d buffer [ledger updated: estimator version changed] (ledger))
-- CHA Grayson Allen: Out, Concussion, 1 g (ESPN return date 2026-11-28 (earlier official return honored over type estimate) [ledger updated: official return date changed] (out, floor 1 game))
+- CHA Grayson Allen: Out, Concussion, 1 g (ESPN return date 2026-11-28 (earlier official return honored over type estimate) [ledger updated: official return date changed] (ledger) (out, floor 1 game))
 - CHA Kon Knueppel: Out, Left Hamstring Strain, 12 g (text: re-eval 'four weeks' + 7d buffer [ledger updated: estimator version changed] (ledger))
-- CHA Ryan Kalkbrenner: Day-To-Day, Left Hip Soreness, 0 g (ESPN return date 2026-11-28 (near-term DTD/probable) [ledger updated: official return date changed])
+- CHA Ryan Kalkbrenner: Day-To-Day, Left Hip Soreness, 0 g (ESPN return date 2026-11-28 (near-term DTD/probable) [ledger updated: official return date changed] (ledger))
 - CHI Caleb Wilson: Out, Right Hand, 11 g (text: 'four to six weeks' [ledger updated: estimator version changed] (ledger))
-- CHI Jalen Smith: Day-To-Day, Illness, 0 g (ESPN return date 2026-11-28 (near-term DTD/probable) [ledger updated: official return date changed])
+- CHI Jalen Smith: Day-To-Day, Illness, 0 g (ESPN return date 2026-11-28 (near-term DTD/probable) [ledger updated: official return date changed] (ledger))
 - CHI Norman Powell: Out, Right Hamstring Strain, 3 g (table: Hamstring strain: ~7.5 games, median 11 days (use ~2 weeks for Out) [ledger updated: estimator version changed] (ledger))
 - CLE Evan Mobley: Out, Left Toe Sprain, 3 g (text: re-eval '10 days' + 7d buffer [ledger updated: estimator version changed] (ledger))
 - CLE Nae'Qwan Tomlin: Out, Back, 2 g (text: week-to-week (text longer than earlier official date) [ledger updated: estimator version changed] (ledger))
-- DAL Dereck Lively II: Out, Right Foot Surgery, 1 g (text: close to returning (text longer than earlier official date) [ledger updated: estimator version changed] (ledger))
-- DAL Sergio de Larrea: Out, Right Knee Strain, 3 g (table: Muscle strain (unspecified): ~2 weeks [ledger updated: estimator version changed] (ledger))
-- DAL Tarik Biberovic: Out, Right Heel Inflammation, 3 g (text: week-to-week (text longer than earlier official date) [ledger updated: estimator version changed] (ledger))
-- DAL Tobi Lawal: Out, Right Groin, 3 g (table: Groin/adductor strain: ~5.5 games / 2 weeks [ledger updated: estimator version changed] (ledger))
-- DET Cade Cunningham: Day-To-Day, Knee, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger updated: status changed])
-- DET Duncan Robinson: Out, Left Quadriceps Strain, 4 g (table: Quad strain/contusion: ~2 weeks [ledger updated: estimator version changed] (ledger))
+- DAL Dereck Lively II: Out, Right Foot Surgery, 78 g (table: Foot surgery: median 199 days (Hoopsmatic) (spans rest of season + playoffs) [ledger updated: official return date changed])
+- DAL Sergio de Larrea: Out, Right Knee Strain, 3 g (ESPN return date 2026-12-14 [ledger updated: official return date changed])
+- DAL Tarik Biberovic: Out, Right Heel Inflammation, 3 g (text: week-to-week [ledger updated: official return date changed])
+- DAL Tobi Lawal: Out, Right Groin Strain, 3 g (table: Groin/adductor strain: ~5.5 games / 2 weeks [ledger: first sight])
+- DET Cade Cunningham: Out, Knee, 1 g (ESPN return date 2026-11-29 (earlier official return honored over type estimate) [ledger updated: status changed])
+- DET Duncan Robinson: Out, Left Quadriceps Strain, 4 g (table: Quad strain/contusion: ~2 weeks [ledger updated: estimator version changed])
 - DET Ebuka Okorie: Out, Left Oblique Strain, 4 g (ESPN return date 2026-12-13 [ledger updated: official return date changed] (ledger))
-- DET Jalen Duren: Out, Right Hamstring Strain, 2 g (ESPN return date 2026-11-30 (earlier official return honored over type estimate) [ledger updated: estimator version changed] (ledger))
+- DET Jalen Duren: Out, Right Hamstring Strain, 4 g (table: Hamstring strain: ~7.5 games, median 11 days (use ~2 weeks for Out) [ledger updated: timeline in ESPN comments changed])
 - DET Taurean Prince: Out, Right Knee Surgery, 34 g (table: Knee surgery (unspecified): median 75 days (Hoopsmatic) [ledger updated: official return date changed] (ledger))
 - GSW Jimmy Butler: Out, Right Knee Surgery, 36 g (text: return window 'return sometime between January and February' (rehab/progress overrides long type default) [ledger updated: estimator version changed] (ledger))
 - GSW Kristaps Porziņģis: Out, Retired, 300 g (retired/stepping away from report: Illness Porzingis announced on his social media that he's stepping away from basketball. (fixed 300 games, no countdown))
 - GSW Moses Moody: Out, Left Knee Surgery, 20 g (text: return window 'return between December and January' (text longer than earlier official date) [ledger updated: estimator version changed] (ledger))
-- GSW Stephen Curry: Out, Right Abdomen, 10 g (table: Abdominal/oblique tear: ~2 weeks-1 month [ledger updated: timeline in ESPN comments changed])
-- IND Aaron Nesmith: Day-To-Day, Foot, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger updated: status changed] (ledger))
+- GSW Stephen Curry: Out, Right Abdomen, 10 g (table: Abdominal/oblique tear: ~2 weeks-1 month [ledger updated: timeline in ESPN comments changed] (ledger))
 - IND Ben Sheppard: Out, Left Knee, 39 g (table: Meniscus repair: ~3 months [ledger updated: estimator version changed] (ledger))
+- IND Kelly Oubre Jr.: Day-To-Day, Right Hand, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight])
 - IND Larry Nance Jr.: Day-To-Day, Right Ankle Soreness, 0 g (ESPN return date 2026-11-27 (earlier official return honored over type estimate) [ledger updated: estimator version changed] (ledger))
 - IND T.J. McConnell: Day-To-Day, Left Hamstring, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger updated: status changed] (ledger))
 - IND Tyrese Haliburton: Out, Left Hamstring Strain, 4 g (ESPN return date 2026-12-13 [ledger updated: estimator version changed] (ledger))
 - LAC Bradley Beal: Out, Right Knee Inflammation, 1 g (ESPN return date 2026-11-29 (earlier official return honored over type estimate) [ledger updated: estimator version changed] (ledger))
 - LAC Jordan Miller: Out, Left Shoulder Surgery, 79 g (table: Rotator cuff repair: ~6 months (spans rest of season + playoffs) [ledger updated: estimator version changed] (ledger))
-- LAL Austin Reaves: Out, Left Heel Bruise, 1 g (ESPN return date 2026-11-27 (earlier official return honored over type estimate) [ledger updated: estimator version changed] (ledger) (out, floor 1 game))
+- LAL Austin Reaves: Out, Left Heel Bruise, 1 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger updated: timeline in ESPN comments changed] (out, floor 1 game))
 - MEM Cameron Boozer: Out, Right Ankle Sprain, 13 g (text: re-eval 'four weeks' + 7d buffer [ledger updated: estimator version changed] (ledger))
 - MEM GG Jackson II: Out, Left Foot Surgery, 77 g (table: Jones / 5th-metatarsal fracture: median ~199 days (foot surgery) (spans rest of season + playoffs) [ledger updated: estimator version changed] (ledger))
+- MEM Isaiah Stewart: Day-To-Day, Right Hip Soreness, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight])
 - MEM Jerami Grant: Out, Left Calf, 8 g (ESPN return date 2026-12-12 (re-eval, +7d buffer) [ledger updated: estimator version changed] (ledger))
 - MEM Richie Saunders: Out, Right Knee Surgery, 2 g (ESPN return date 2026-12-01 (rehab/progress overrides long type default) [ledger updated: estimator version changed] (ledger))
 - MEM Scotty Pippen Jr.: Out, Back Soreness, 4 g (ESPN return date 2026-12-12 [ledger updated: official return date changed] (ledger))
-- MEM Zach Edey: Day-To-Day, Left Ankle Soreness, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight])
+- MEM Zach Edey: Day-To-Day, Left Ankle Soreness, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight] (ledger))
+- MIA Andrew Wiggins: Day-To-Day, Right Ankle Sprain, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight])
+- MIA Giannis Antetokounmpo: Day-To-Day, Right Groin, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight])
 - MIN Anthony Edwards: Out, Right Knee Surgery, 32 g (table: Knee surgery (unspecified): median 75 days (Hoopsmatic) [ledger updated: estimator version changed] (ledger))
 - MIN Donte DiVincenzo: Out, Right Achilles Surgery, 21 g (text: 'in january' [ledger updated: official return date changed] (ledger))
 - MIN Jaylen Clark: Out, Right Hamstring, 4 g (table: Hamstring strain: ~7.5 games, median 11 days (use ~2 weeks for Out) [ledger updated: estimator version changed] (ledger))
-- MIN LaMelo Ball: Day-To-Day, Left Ankle, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight])
-- NOP Bennedict Mathurin: Out, Left Foot Plantar Fasciitis, 4 g (text: week-to-week (text longer than earlier official date) [ledger updated: estimator version changed] (ledger))
-- NOP Dejounte Murray: Out, Ankle, 1 g (ESPN return date 2026-11-27 [ledger updated: estimator version changed] (ledger) (out, floor 1 game))
-- NOP Julian Reese: Day-To-Day, Right Knee, 4 g (table: Quad strain/contusion: ~2 weeks [ledger: first sight])
-- NOP Trendon Watford: Out, Right Ankle Sprain, 4 g (text: week-to-week (text longer than earlier official date) [ledger updated: estimator version changed] (ledger))
-- NYK Andre Drummond: Day-To-Day, Head, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight])
-- NYK Jordan Clarkson: Out, Right Foot Plantar Fasciitis, 6 g (table: Plantar fasciitis: ~2-4 weeks [ledger updated: official return date changed] (ledger))
-- NYK Miles McBride: Day-To-Day, Left Groin Soreness, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger updated: official return date changed])
+- MIN LaMelo Ball: Day-To-Day, Left Ankle, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight] (ledger))
+- NOP Bennedict Mathurin: Out, Left Foot Plantar Fasciitis, 7 g (table: Plantar fasciitis: ~2-4 weeks [ledger updated: timeline in ESPN comments changed])
+- NOP Dejounte Murray: Out, Ankle, 1 g (ESPN return date 2026-11-29 [ledger updated: official return date changed])
+- NOP Julian Reese: Day-To-Day, Right Knee, 4 g (table: Quad strain/contusion: ~2 weeks [ledger: first sight] (ledger))
+- NOP Trendon Watford: Out, Right Ankle Sprain, 4 g (text: week-to-week (text longer than earlier official date) [ledger updated: estimator version changed])
+- NYK Andre Drummond: Day-To-Day, Head, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight] (ledger))
+- NYK Jordan Clarkson: Out, Right Foot Plantar Fasciitis, 6 g (table: Plantar fasciitis: ~2-4 weeks [ledger updated: official return date changed])
+- NYK Miles McBride: Day-To-Day, Left Groin Soreness, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger updated: official return date changed] (ledger))
 - NYK OG Anunoby: Out, Left Calf Soreness, 4 g (table: Calf strain: ~7.2 games, median 11 days (use ~2 weeks for Out) [ledger updated: status changed] (ledger))
 - OKC Aday Mara: Out, Right Lower Leg Bruise, 1 g (ESPN return date 2026-11-28 (near-term DTD/probable) [ledger updated: status changed] (ledger) (out, floor 1 game))
 - OKC Cason Wallace: Out, Left Shoulder Surgery, 77 g (table: Shoulder labrum repair: ~6 months (NBA shoulder arthroscopy ~201 days) (spans rest of season + playoffs) [ledger updated: estimator version changed] (ledger))
@@ -156,31 +159,33 @@ Games with box scores: 270; remaining schedule: 932
 - OKC Jaylin Williams: Out, Back Spasms, 1 g (ESPN return date 2026-11-28 (earlier official return honored over type estimate) [ledger updated: status changed] (ledger) (out, floor 1 game))
 - OKC Nikola Topić: Out, Left Hip Strain, 1 g (ESPN return date 2026-11-28 (earlier official return honored over type estimate) [ledger updated: official return date changed] (ledger) (out, floor 1 game))
 - OKC Thomas Sorber: Out, Knee, 28 g (ESPN return date 2027-01-31 (earlier official return honored over type estimate) [ledger updated: estimator version changed] (ledger))
+- ORL Colin Castleton: Day-To-Day, Calf Soreness, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight])
 - ORL Izaiyah Nelson: Out, Left Ankle Surgery, 1 g (ESPN return date 2026-11-29 [ledger updated: estimator version changed] (ledger))
 - ORL Jonathan Isaac: Out, Left Knee, 3 g (text: week-to-week [ledger updated: estimator version changed] (ledger))
 - ORL Noah Penda: Out, Right Hamstring Strain, 3 g (text: week-to-week (text longer than earlier official date) [ledger updated: estimator version changed] (ledger))
 - ORL Paolo Banchero: Out, Right Ankle Sprain, 16 g (text: 'six weeks' [ledger updated: estimator version changed] (ledger))
 - PHI Ariel Hukporti: Out, Right Achilles Surgery, 77 g (table: Achilles tear: out for season (~11 months NBA RTP) [ledger updated: estimator version changed] (ledger))
-- PHI Jaylen Brown: Day-To-Day, Left Hamstring, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight])
+- PHI Jaylen Brown: Out, Left Hamstring, 5 g (table: Hamstring strain: ~7.5 games, median 11 days (use ~2 weeks for Out) [ledger updated: status changed])
 - PHI Joel Embiid: Day-To-Day, Illness, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger updated: official return date changed] (ledger))
 - PHX Mark Williams: Out, Left Shoulder Surgery, 79 g (table: Shoulder labrum repair: ~6 months (NBA shoulder arthroscopy ~201 days) (spans rest of season + playoffs) [ledger updated: estimator version changed] (ledger))
-- POR Chris Youngblood: Out, Right Heel Bruise, 4 g (text: out indefinitely (2-week floor) (text longer than earlier official date) [ledger updated: estimator version changed] (ledger))
+- POR Chris Youngblood: Out, Right Heel Bruise, 4 g (text: out indefinitely (2-week floor) (text longer than earlier official date) [ledger updated: estimator version changed])
 - POR Ja Morant: Out, Left Hamstring, 2 g (ESPN return date 2026-12-01 (rehab/progress overrides long type default) [ledger updated: estimator version changed] (ledger))
 - POR Shaedon Sharpe: Out, Right Knee Surgery, 78 g (text: 'six months' (extends into playoffs) [ledger updated: estimator version changed] (ledger))
 - POR Vít Krejčí: Out, Left Ankle, 78 g (table: Ankle surgery: median 147 days (Hoopsmatic) (spans rest of season + playoffs) [ledger updated: estimator version changed] (ledger))
 - SAC Ben Simmons: Out, Right Achilles Surgery, 78 g (table: Achilles tear: out for season (~11 months NBA RTP) [ledger updated: estimator version changed] (ledger))
-- SAC Maxime Raynaud: Out, Right Knee Dislocated, 3 g (text: week-to-week [ledger updated: timeline in ESPN comments changed])
-- SAC Zach LaVine: Day-To-Day, Right Knee Soreness, 0 g (ESPN return date 2026-11-29 (near-term DTD/probable) [ledger: first sight])
-- SAS De'Aaron Fox: Day-To-Day, Right Lower Leg Bruise, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger updated: official return date changed])
-- SAS Dylan Harper: Out, Hip Soreness, 4 g (ESPN return date 2026-12-13 [ledger updated: estimator version changed] (ledger))
+- SAC Maxime Raynaud: Out, Right Knee Dislocated, 3 g (text: week-to-week [ledger updated: timeline in ESPN comments changed] (ledger))
+- SAC Zach LaVine: Day-To-Day, Right Knee Soreness, 0 g (ESPN return date 2026-11-29 (near-term DTD/probable) [ledger: first sight] (ledger))
+- SAS De'Aaron Fox: Day-To-Day, Right Lower Leg Bruise, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger updated: official return date changed] (ledger))
+- SAS Dylan Harper: Out, Left Hip Strain, 1 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight] (out, floor 1 game))
 - SAS Jayden Quaintance: Out, Right Knee Surgery, 3 g (ESPN return date 2026-12-03 [ledger updated: estimator version changed] (ledger))
 - SAS Tobias Harris: Out, Left Calf Strain, 4 g (text: 'until early december' (text longer than earlier official date) [ledger updated: estimator version changed] (ledger))
+- TOR Alijah Martin: Day-To-Day, Left Knee Soreness, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger: first sight])
 - TOR Kawhi Leonard: Out, Left Knee Inflammation, 4 g (ESPN return date 2026-12-03 (re-eval, +7d buffer) [ledger updated: timeline in ESPN comments changed] (ledger))
 - TOR Nate Bittle: Out, Right Foot Fracture, 3 g (text: week-to-week (text longer than earlier official date) [ledger updated: estimator version changed] (ledger))
 - TOR RJ Barrett: Out, Right Hamstring Strain, 8 g (ESPN return date 2026-12-13 (re-eval, +7d buffer) [ledger updated: estimator version changed] (ledger))
 - UTA Jaren Jackson Jr.: Out, Right Knee, 23 g (text: '8 weeks' [ledger updated: estimator version changed] (ledger))
-- UTA Jaxson Hayes: Day-To-Day, Left Knee, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger updated: status changed] (ledger))
-- UTA Jusuf Nurkić: Out, Right Foot Strain, 4 g (table: Muscle strain (unspecified): ~2 weeks [ledger updated: estimator version changed] (ledger))
+- UTA Jaxson Hayes: Day-To-Day, Left Knee, 0 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger updated: timeline in ESPN comments changed])
+- UTA Jusuf Nurkić: Out, Right Foot Strain, 1 g (ESPN return date 2026-11-27 (near-term DTD/probable) [ledger updated: official return date changed] (out, floor 1 game))
 - UTA Lauri Markkanen: Out, Right Hand Fracture, 15 g (ESPN return date 2027-01-04 (earlier official return honored over type estimate) [ledger updated: estimator version changed] (ledger))
 - WAS Jamir Watkins: Out, Left Knee Surgery, 77 g (table: ACL tear: out for season (~11-12 months NBA RTP) [ledger updated: estimator version changed] (ledger))
 - WAS Justin Champagnie: Out, Right Foot, 38 g (ESPN return date 2027-02-25 [ledger updated: estimator version changed] (ledger))
@@ -190,44 +195,44 @@ Games with box scores: 270; remaining schedule: 932
 ## Rating blend: biggest risers (formula in blend.py / README; steps = production blend, J5 replay adjustment, league constant, role-player penalty)
 | player | team | MIN | MPG | PPG | TS% | BPM | base -> new ovr | pts/36 real, sim | ast/36 real, sim | 3PA rate real, sim |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Meleek Thomas | CLE | 367 | 22.9 | 12.4 | 58.9 | -0.1 | 32 -> 56 (+24: blend +18, J5 +5.3, league +1.6, role -1.1) | 19.5, 16.9 | 2.7, 3.8 | 53.9, 45.8 |
-| Trey Lyles | MIN | 362 | 19.1 | 6.5 | 62.3 | +2.1 | 40 -> 56 (+16: blend +14, J5 +1.5, league +1.6, role -1.1) | 12.2, 11.5 | 2.2, 2.4 | 70.6, 42.7 |
-| Caleb Wilson | CHI | 307 | 30.7 | 18.9 | 52.5 | -1.7 | 42 -> 58 (+16: blend +9, J5 +5.9, league +1.6, role -0.8) | 22.2, 18.7 | 2.2, 2.0 | 43.8, 23.5 |
-| Jalen Slawson | IND | 230 | 14.4 | 4.8 | 63.1 | +2.6 | 42 -> 57 (+15: blend +8, J5 +6.4, league +1.6, role -0.9) | 12.1, 11.7 | 3.0, 2.5 | 38.0, 30.8 |
-| Bennett Stirtz | OKC | 369 | 19.4 | 8.2 | 63.9 | +1.4 | 41 -> 55 (+14: blend +13, J5 +1.1, league +1.6, role -1.2) | 15.2, 12.2 | 2.9, 4.6 | 67.0, 42.4 |
-| Allen Graves | TOR | 287 | 16.9 | 5.6 | 56.6 | -0.4 | 38 -> 52 (+14: blend +13, J5 +0.9, league +1.6, role -1.8) | 12.0, 11.9 | 1.6, 1.2 | 53.9, 38.4 |
-| Terrence Shannon Jr. | MIN | 365 | 22.8 | 12.8 | 60.1 | +1.4 | 43 -> 56 (+13: blend +10, J5 +2.3, league +1.6, role -1.1) | 20.2, 18.2 | 4.7, 5.3 | 41.5, 41.0 |
-| Aday Mara | OKC | 359 | 22.4 | 10.0 | 65.3 | +0.8 | 43 -> 56 (+13: blend +13, J5 -0.5, league +1.6, role -1.1) | 16.0, 16.3 | 3.0, 3.4 | 0.9, 6.7 |
-| Joan Beringer | MIN | 322 | 16.9 | 4.7 | 60.6 | +2.4 | 41 -> 54 (+13: blend +10, J5 +2.6, league +1.6, role -1.5) | 10.0, 9.4 | 0.9, 1.3 | 0.0, 3.9 |
-| Matisse Thybulle | LAL | 448 | 24.9 | 7.8 | 62.5 | +2.7 | 46 -> 58 (+12: blend +7, J5 +3.9, league +1.6, role -0.8) | 11.3, 8.7 | 1.4, 2.4 | 73.8, 41.7 |
-| Brayden Burries | MIL | 437 | 23.0 | 11.0 | 55.5 | -1.3 | 42 -> 54 (+12: blend +10, J5 +2.1, league +1.6, role -1.4) | 17.2, 16.5 | 4.0, 3.1 | 42.6, 41.0 |
-| Quenton Jackson | IND | 387 | 21.5 | 8.9 | 58.2 | -0.7 | 40 -> 52 (+12: blend +8, J5 +4.1, league +1.6, role -1.8) | 15.0, 12.6 | 4.7, 3.6 | 46.4, 39.9 |
-| Kingston Flemings | ATL | 285 | 21.9 | 7.9 | 56.8 | -3.5 | 42 -> 54 (+12: blend +5, J5 +6.5, league +1.6, role -1.5) | 13.0, 13.0 | 6.9, 6.7 | 29.8, 30.9 |
-| Mo Bamba | UTA | 323 | 21.5 | 8.5 | 71.8 | +2.9 | 42 -> 53 (+11: blend +12, J5 -1.0, league +1.6, role -1.6) | 14.3, 14.8 | 1.8, 1.9 | 16.5, 34.7 |
-| Khaman Maluach | PHX | 319 | 18.8 | 7.9 | 69.2 | -1.6 | 41 -> 52 (+11: blend +8, J5 +3.0, league +1.6, role -1.8) | 15.2, 14.5 | 1.8, 1.0 | 8.4, 7.5 |
+| Meleek Thomas | CLE | 367 | 22.9 | 12.4 | 58.9 | -0.1 | 32 -> 56 (+24: blend +18, J5 +5.3, league +1.6, role -1.1) | 19.5, 17.4 | 2.7, 3.8 | 53.9, 45.3 |
+| Trey Lyles | MIN | 362 | 19.1 | 6.5 | 62.3 | +2.1 | 40 -> 56 (+16: blend +14, J5 +1.5, league +1.6, role -1.1) | 12.2, 11.6 | 2.2, 2.5 | 70.6, 41.9 |
+| Caleb Wilson | CHI | 307 | 30.7 | 18.9 | 52.5 | -1.7 | 42 -> 58 (+16: blend +9, J5 +5.9, league +1.6, role -0.8) | 22.2, 19.3 | 2.2, 2.0 | 43.8, 23.9 |
+| Jalen Slawson | IND | 230 | 14.4 | 4.8 | 63.1 | +2.6 | 42 -> 57 (+15: blend +8, J5 +6.4, league +1.6, role -0.9) | 12.1, 12.1 | 3.0, 2.7 | 38.0, 30.9 |
+| Bennett Stirtz | OKC | 369 | 19.4 | 8.2 | 63.9 | +1.4 | 41 -> 55 (+14: blend +13, J5 +1.1, league +1.6, role -1.2) | 15.2, 12.6 | 2.9, 4.3 | 67.0, 42.3 |
+| Allen Graves | TOR | 287 | 16.9 | 5.6 | 56.6 | -0.4 | 38 -> 52 (+14: blend +13, J5 +0.9, league +1.6, role -1.8) | 12.0, 12.6 | 1.6, 1.1 | 53.9, 37.2 |
+| Terrence Shannon Jr. | MIN | 365 | 22.8 | 12.8 | 60.1 | +1.4 | 43 -> 56 (+13: blend +10, J5 +2.3, league +1.6, role -1.1) | 20.2, 18.5 | 4.7, 5.4 | 41.5, 41.1 |
+| Aday Mara | OKC | 359 | 22.4 | 10.0 | 65.3 | +0.8 | 43 -> 56 (+13: blend +13, J5 -0.5, league +1.6, role -1.1) | 16.0, 16.2 | 3.0, 3.6 | 0.9, 6.8 |
+| Joan Beringer | MIN | 322 | 16.9 | 4.7 | 60.6 | +2.4 | 41 -> 54 (+13: blend +10, J5 +2.6, league +1.6, role -1.5) | 10.0, 9.5 | 0.9, 1.1 | 0.0, 3.3 |
+| Matisse Thybulle | LAL | 448 | 24.9 | 7.8 | 62.5 | +2.7 | 46 -> 58 (+12: blend +7, J5 +3.9, league +1.6, role -0.8) | 11.3, 8.5 | 1.4, 2.4 | 73.8, 42.9 |
+| Brayden Burries | MIL | 437 | 23.0 | 11.0 | 55.5 | -1.3 | 42 -> 54 (+12: blend +10, J5 +2.1, league +1.6, role -1.4) | 17.2, 16.0 | 4.0, 3.2 | 42.6, 40.3 |
+| Quenton Jackson | IND | 387 | 21.5 | 8.9 | 58.2 | -0.7 | 40 -> 52 (+12: blend +8, J5 +4.1, league +1.6, role -1.8) | 15.0, 12.7 | 4.7, 3.4 | 46.4, 40.2 |
+| Kingston Flemings | ATL | 285 | 21.9 | 7.9 | 56.8 | -3.5 | 42 -> 54 (+12: blend +5, J5 +6.5, league +1.6, role -1.5) | 13.0, 12.7 | 6.9, 7.1 | 29.8, 32.7 |
+| Mo Bamba | UTA | 323 | 21.5 | 8.5 | 71.8 | +2.9 | 42 -> 53 (+11: blend +12, J5 -1.0, league +1.6, role -1.6) | 14.3, 14.1 | 1.8, 1.9 | 16.5, 33.2 |
+| Khaman Maluach | PHX | 319 | 18.8 | 7.9 | 69.2 | -1.6 | 41 -> 52 (+11: blend +8, J5 +3.0, league +1.6, role -1.8) | 15.2, 15.1 | 1.8, 1.0 | 8.4, 7.7 |
 
 ## Rating blend: biggest fallers
 | player | team | MIN | MPG | PPG | TS% | BPM | base -> new ovr | pts/36 real, sim | ast/36 real, sim | 3PA rate real, sim |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Jalen Suggs | ORL | 262 | 29.1 | 8.7 | 43.5 | -5.8 | 66 -> 53 (-13: blend -11, J5 -2.2, league +1.6, role -1.6) | 10.7, 13.0 | 5.1, 2.0 | 48.2, 35.1 |
-| Deandre Ayton | WAS | 230 | 12.1 | 3.4 | 62.9 | -2.3 | 59 -> 47 (-12: blend -3, J5 -7.7, league +1.6, role -2.5) | 10.2, 11.0 | 2.2, 1.0 | 0.0, 4.5 |
-| Bennedict Mathurin | NOP | 183 | 15.2 | 5.5 | 46.5 | -8.2 | 58 -> 46 (-12: blend -8, J5 -2.4, league +1.6, role -2.7) | 13.0, 14.6 | 2.8, 1.0 | 40.6, 27.8 |
-| Josh Giddey | CHI | 514 | 28.6 | 10.4 | 49.7 | -0.6 | 66 -> 55 (-11: blend -7, J5 -4.0, league +1.6, role -1.2) | 13.2, 14.6 | 11.6, 9.1 | 38.3, 31.9 |
-| Royce O'Neale | CHA | 343 | 20.2 | 5.2 | 54.6 | -3.0 | 57 -> 46 (-11: blend -6, J5 -3.4, league +1.6, role -2.7) | 9.3, 10.9 | 1.4, 1.5 | 92.3, 42.3 |
-| Nique Clifford | OKC | 194 | 11.4 | 3.1 | 43.8 | -7.6 | 50 -> 40 (-10: blend -5, J5 -2.5, league +1.6, role -3.7) | 9.8, 9.6 | 2.0, 1.4 | 36.8, 29.2 |
-| Mikal Bridges | NYK | 486 | 27.0 | 8.4 | 49.8 | -1.5 | 65 -> 56 (-9: blend -8, J5 -1.6, league +1.6, role -1.1) | 11.3, 12.1 | 2.9, 1.7 | 43.0, 40.1 |
-| Max Christie | DAL | 257 | 17.1 | 5.4 | 50.2 | -3.9 | 55 -> 46 (-9: blend -4, J5 -4.1, league +1.6, role -2.8) | 11.3, 10.0 | 2.1, 1.2 | 70.5, 42.7 |
-| Coby White | CHA | 215 | 21.5 | 13.2 | 46.8 | -3.7 | 54 -> 45 (-9: blend -2, J5 -6.0, league +1.6, role -3.0) | 22.1, 20.4 | 6.7, 6.2 | 47.2, 46.0 |
-| Santi Aldama | DAL | 114 | 12.7 | 5.8 | 52.5 | -5.8 | 61 -> 52 (-9: blend -5, J5 -3.7, league +1.6, role -1.7) | 16.4, 15.5 | 1.6, 1.7 | 58.7, 38.1 |
-| Herbert Jones | NOP | 469 | 24.7 | 6.6 | 44.5 | -6.5 | 61 -> 53 (-8: blend -11, J5 +2.9, league +1.6, role -1.6) | 9.7, 10.0 | 2.5, 1.4 | 46.7, 36.4 |
-| Ryan Rollins | MIL | 400 | 23.5 | 9.9 | 47.1 | -4.2 | 58 -> 50 (-8: blend -8, J5 +0.4, league +1.6, role -2.1) | 15.1, 13.0 | 5.8, 3.6 | 44.0, 40.5 |
-| Derrick White | BOS | 510 | 30.0 | 12.4 | 50.5 | +0.4 | 65 -> 58 (-7: blend -5, J5 -2.5, league +1.6, role -0.7) | 14.8, 14.7 | 6.0, 4.1 | 52.0, 43.0 |
-| Jalen Johnson | ATL | 478 | 34.1 | 19.1 | 53.4 | +1.0 | 69 -> 62 (-7: blend -6, J5 -2.5, league +1.6) | 20.2, 19.4 | 7.3, 4.5 | 26.3, 14.3 |
-| DeMar DeRozan | DEN | 332 | 22.1 | 9.8 | 49.4 | -5.8 | 58 -> 51 (-7: blend -8, J5 +1.1, league +1.6, role -2.0) | 15.9, 16.6 | 3.9, 2.0 | 15.2, 10.0 |
+| Jalen Suggs | ORL | 262 | 29.1 | 8.7 | 43.5 | -5.8 | 66 -> 53 (-13: blend -11, J5 -2.2, league +1.6, role -1.6) | 10.7, 12.7 | 5.1, 2.0 | 48.2, 35.1 |
+| Deandre Ayton | WAS | 230 | 12.1 | 3.4 | 62.9 | -2.3 | 59 -> 47 (-12: blend -3, J5 -7.7, league +1.6, role -2.5) | 10.2, 10.1 | 2.2, 1.0 | 0.0, 5.1 |
+| Bennedict Mathurin | NOP | 183 | 15.2 | 5.5 | 46.5 | -8.2 | 58 -> 46 (-12: blend -8, J5 -2.4, league +1.6, role -2.7) | 13.0, 13.7 | 2.8, 1.0 | 40.6, 23.8 |
+| Josh Giddey | CHI | 514 | 28.6 | 10.4 | 49.7 | -0.6 | 66 -> 55 (-11: blend -7, J5 -4.0, league +1.6, role -1.2) | 13.2, 14.3 | 11.6, 9.1 | 38.3, 31.0 |
+| Royce O'Neale | CHA | 343 | 20.2 | 5.2 | 54.6 | -3.0 | 57 -> 46 (-11: blend -6, J5 -3.4, league +1.6, role -2.7) | 9.3, 11.1 | 1.4, 1.4 | 92.3, 46.1 |
+| Nique Clifford | OKC | 194 | 11.4 | 3.1 | 43.8 | -7.6 | 50 -> 40 (-10: blend -5, J5 -2.5, league +1.6, role -3.7) | 9.8, 9.9 | 2.0, 1.6 | 36.8, 32.1 |
+| Mikal Bridges | NYK | 486 | 27.0 | 8.4 | 49.8 | -1.5 | 65 -> 56 (-9: blend -8, J5 -1.6, league +1.6, role -1.1) | 11.3, 12.1 | 2.9, 1.7 | 43.0, 39.0 |
+| Max Christie | DAL | 257 | 17.1 | 5.4 | 50.2 | -3.9 | 55 -> 46 (-9: blend -4, J5 -4.1, league +1.6, role -2.8) | 11.3, 9.7 | 2.1, 1.3 | 70.5, 40.0 |
+| Coby White | CHA | 215 | 21.5 | 13.2 | 46.8 | -3.7 | 54 -> 45 (-9: blend -2, J5 -6.0, league +1.6, role -3.0) | 22.1, 19.9 | 6.7, 6.1 | 47.2, 44.2 |
+| Santi Aldama | DAL | 114 | 12.7 | 5.8 | 52.5 | -5.8 | 61 -> 52 (-9: blend -5, J5 -3.7, league +1.6, role -1.7) | 16.4, 16.2 | 1.6, 1.5 | 58.7, 35.4 |
+| Herbert Jones | NOP | 469 | 24.7 | 6.6 | 44.5 | -6.5 | 61 -> 53 (-8: blend -11, J5 +2.9, league +1.6, role -1.6) | 9.7, 10.3 | 2.5, 1.4 | 46.7, 35.6 |
+| Ryan Rollins | MIL | 400 | 23.5 | 9.9 | 47.1 | -4.2 | 58 -> 50 (-8: blend -8, J5 +0.4, league +1.6, role -2.1) | 15.1, 13.3 | 5.8, 3.5 | 44.0, 38.3 |
+| Derrick White | BOS | 510 | 30.0 | 12.4 | 50.5 | +0.4 | 65 -> 58 (-7: blend -5, J5 -2.5, league +1.6, role -0.7) | 14.8, 14.5 | 6.0, 4.0 | 52.0, 43.0 |
+| Jalen Johnson | ATL | 478 | 34.1 | 19.1 | 53.4 | +1.0 | 69 -> 62 (-7: blend -6, J5 -2.5, league +1.6) | 20.2, 19.1 | 7.3, 4.5 | 26.3, 14.5 |
+| DeMar DeRozan | DEN | 332 | 22.1 | 9.8 | 49.4 | -5.8 | 58 -> 51 (-7: blend -8, J5 +1.1, league +1.6, role -2.0) | 15.9, 16.0 | 3.9, 2.0 | 15.2, 9.4 |
 
 ## J5 replay calibration and roster order
-- Weekly table from 2026-11-24 11:05 CST (258 games); 469 player adjustments, 257 updated for games since; league constant +1.57; 0.6 s
-- Lineup-matched replay check: teams within ±2 wins 23/30 (wins RMSE 1.71); rotation players inside core tolerance: strict 40%, relative 43%
+- Weekly table from 2026-11-24 11:05 CST (258 games); 469 player adjustments, 257 updated for games since; league constant +1.57; 0.59 s
+- Lineup-matched replay check: teams within ±2 wins 24/30 (wins RMSE 1.7); rotation players inside core tolerance: strict 36%, relative 41%
 - Starters match (BBGM auto-sorted top 5 vs real starters, latest game): 5/30 exact, 21/30 with 4+ of 5 (counting injured players too: 3/30 exact, 12/30 4+)
 
 ## All rating changes (432)
